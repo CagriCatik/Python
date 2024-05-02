@@ -10,24 +10,8 @@ This repository is designed to help refresh your Python skills by offering a com
 
 In addition to gaining a solid understanding of Python programming, learners will also gain insights into proven techniques and methods that can be applied to other programming languages. This repository also offers opportunities to improve skills through knowledge exchange and discussions within the community. So, whether you're a beginner or a seasoned programmer, this repository is an excellent resource to refresh and improve your Python skills.
 
-1. [Python Basics 📚](./01_Python_Basics/README.md)
-2. [Control Flow 🔄](#control-flow-)
-3. [Functions 🎯](#functions-)
-4. [Errors ❌](#errors-)
-5. [Modules 📦](#modules-)
-6. [Lists 📋](#lists-)
-7. [OOP 🏗️](#oop-)
-8. [Built-in Functions 🛠️](#built-in-functions-)
-9. [Dataclasses 📇](#dataclasses-)
-10. [AsyncIO ⚙️](#asyncio-)
-11. [Advanced 🚀](#advanced-)
-12. [Multithreading](#multithreading-) 🔄
-13. [Multiprocessing](#multiprocessing-) ⚙️
-14. [Unit-Testing](#unit-testing-) 🛠️
-15. [File-Management](#file-management-) 📂
-16. [Design Patterns](#design-patterns-) 🎨
-
-## Python Basics 📚
+<details>
+<summary>Python Basics 📚</summary>
 
 - [Syntax](01_Python_Basics/01_Syntax/README.md) [👨‍💻](01_Python_Basics\01_Syntax\code)
 - [Comments](01_Python_Basics/02_Comments/README.md) [👨‍💻](.\01_Python_Basics\02_Comments\code)
@@ -61,7 +45,10 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - [Unpacking](01_Python_Basics/30_Unpacking/README.md) [👨‍💻](#)
 - [__ VS __ == Is](01_Python_Basics/31_VS_Is/README.md) [👨‍💻](#)
 
-## Control Flow 🔄
+</details>
+
+<details>
+<summary>Control Flow 🔄</summary>
 
 - [If_Elif_Else](02_Control_Flow/01_If_Elif_Else/README.md) [👨‍💻](#)
 - [If_Else_Shorthand](02_Control_Flow/02_If_Else_Shorthand/README.md) [👨‍💻](#)
@@ -71,7 +58,10 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - [Loop-Else](02_Control_Flow/06_Loop-Else/README.md) [👨‍💻](#)
 - [Rock_Paper_Scissors](02_Control_Flow/07_Rock_Paper_Scissors/README.md) [👨‍💻](#)
 
-## Functions 🎯
+</details>
+
+<details>
+<summary>Functions 🎯</summary>
 
 - [Creating_a_Function](03_Functions/01_Creating_a_Function/README.md) [👨‍💻](#)
 - [Pass](03_Functions/02_Pass/README.md) [👨‍💻](#)
@@ -82,7 +72,10 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - [Star_and_Slash](03_Functions/07_Star_and_Slash/README.md) [👨‍💻](#)
 - [Chat_Bot](03_Functions/08_Chat_Bot/README.md) [👨‍💻](#)
 
-## Errors ❌
+</details>
+
+<details>
+<summary>Errors ❌</summary>
 
 - [User Input](04_Errors/01_User_Input/README.md) [👨‍💻](#)
 - [Shortcut](04_Errors/02_Shortcut/README.md) [👨‍💻](#)
@@ -92,7 +85,10 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - [Unknown Errors](04_Errors/06_Unknown_Errors/README.md) [👨‍💻](#)
 - [Letters Only](04_Errors/07_Letters_Only/README.md) [👨‍💻](#)
 
-## Modules 📦
+</details>
+
+<details>
+<summary>Modules 📦</summary>
 
 - [Modules](05_Modules/01_Modules/README.md) [👨‍💻](#)
 - [Importing](05_Modules/02_Importing/README.md) [👨‍💻](#)
@@ -101,14 +97,20 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - [Libraries](05_Modules/05_Libraries/README.md) [👨‍💻](#)
 - [Website_Status](05_Modules/06_Website_Status/README.md) [👨‍💻](#)
 
-## Lists 📋
+</details>
+
+<details>
+<summary>Lists 📋</summary>
 
 - [List_Comprehensions](06_Lists/01_List_Comprehensions/README.md) [👨‍💻](#)
 - [Slicing](06_Lists/02_Slicing/README.md) [👨‍💻](#)
 - [Dont_Loop_Modify](06_Lists/03_Dont_Loop_Modify/README.md) [👨‍💻](#)
 - [Grocery_List](06_Lists/04_Grocery_List/README.md) [👨‍💻](#)
 
-## OOP 🏗️
+</details>
+
+<details>
+<summary>OOP 🏗️</summary>
 
 - [OOP](07_OOP/01_OOP/README.md) [👨‍💻](#)
 - [Classes_and_Objects](07_OOP/02_Classes_and_Objects/README.md) [👨‍💻](#)
@@ -127,7 +129,10 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - [@abstractmethod](07_OOP/15_@abstractmethod/README.md) [👨‍💻](#)
 - [Name_Mangling](07_OOP/16_Name_Mangling/README.md) [👨‍💻](#)
 
-## Built in Functions 🛠️
+</details>
+
+<details>
+<summary>Built in Functions 🛠️</summary>
 
 - [print()](08_Built_in_Functions/01_print()/README.md) [👨‍💻](#)
 - [enumerate()](08_Built_in_Functions/02_enumerate()/README.md) [👨‍💻](#)
@@ -148,7 +153,10 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - [exec()](08_Built_in_Functions/17_exec()/README.md) [👨‍💻](#)
 - [zip()](08_Built_in_Functions/18_zip()/README.md) [👨‍💻](#)
 
-## Dataclasses 📇
+</details>
+
+<details>
+<summary>Dataclasses 📇</summary>
 
 - [@dataclass](09_Dataclasses/01_@dataclass/README.md) [👨‍💻](#)
 - [Fields](09_Dataclasses/02_Fields/README.md) [👨‍💻](#)
@@ -157,7 +165,10 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - [@property](09_Dataclasses/05_@property/README.md) [👨‍💻](#)
 - [Notes](09_Dataclasses/06_Notes/README.md) [👨‍💻](#)
 
-## AsyncIO ⚙️
+</details>
+
+<details>
+<summary>AsyncIO ⚙️</summary>
 
 - [Intro](10_AsyncIO/01_Intro/README.md) [👨‍💻](#)
 - [Getting_Started](10_AsyncIO/02_Getting_Started/README.md) [👨‍💻](#)
@@ -165,19 +176,28 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - [Gather](10_AsyncIO/04_Gather/README.md) [👨‍💻](#)
 - [Website_Status](10_AsyncIO/05_Website_Status/README.md) [👨‍💻](#)
 
-## Advanced 🚀
+</details>
+
+<details>
+<summary>Advanced 🚀</summary>
 
 - [Mypy](11_Advanced/01_Mypy/README.md) [👨‍💻](#)
 - [Walrus_Operator](11_Advanced/02_Walrus_Operator/README.md) [👨‍💻](#)
 - [Lambda_Functions](11_Advanced/03_Lambda_Functions/README.md) [👨‍💻](#)
 - [Generators](11_Advanced/04_Generators/README.md) [👨‍💻](#)
 
-## AsyncIO
+</details>
+
+<details>
+<summary>AsyncIO ⚙️</summary>
 
 - Tasks
 - Gather
 
-## Multithreading
+</details>
+
+<details>
+<summary>Multithreading 🔄</summary>
 
 - Threads
 - Locks
@@ -186,12 +206,18 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - With Lock Semaphore
 - Race Conditions
 
-## Multiprocessing
+</details>
+
+<details>
+<summary>Multiprocessing 🔄</summary>
 
 - Processes
 - Pools Map
 
-## Unit-Testing
+</details>
+
+<details>
+<summary>Unit-Testing ✔️</summary>
 
 - Fixtures
 - Conftest
@@ -199,6 +225,18 @@ In addition to gaining a solid understanding of Python programming, learners wil
 - Parametrize
 - Testing Errors
 
-## File-Management
+</details>
 
-## Design Patterns
+<details>
+<summary>File-Management 📁</summary>
+ 
+- 1
+- 2
+</details>
+
+<details>
+<summary>Design Patterns 🎨</summary>
+ 
+- 1
+- 2
+</details>
