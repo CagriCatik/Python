@@ -1,19 +1,14 @@
 # Python: Unleashing Your Inner Python Ninja 🐍
 
-<div align="center">
-    <img src="image/cover.png" style="width: 20%; height: auto;">
+<div style="text-align: left;">
+  <img src="image/cover.png" style="width: 20%; height: auto;">
+  <p style="margin-right: 500px;">  The repository is a comprehensive guide tailored to enhance Python skills. It caters to both beginners and experienced developers, offering in-depth tutorials, practical examples, and hands-on exercises covering a wide range of Python topics. From fundamental concepts to advanced techniques, each section aims to equip learners with the knowledge and skills to navigate Python proficiently. The repository provides a structured and easily understandable approach, facilitating quick progress for learners. Additionally, it offers insights into techniques applicable to other programming languages and fosters community engagement for skill improvement. Whether you're starting out or seeking to refine your Python expertise, this repository serves as an invaluable resource.</p>
 </div>
 
-Welcome to the GitHub repository for "Mastering Python Excellence: Unleashing Your Inner Python Ninja." This guide is crafted to enhance your Python skills, turning you into a skilled Python Ninja. Whether you're an experienced developer or just beginning with Python, this repository is your ultimate resource for mastering the art of Python programming. Inside, you'll discover a carefully curated collection of in-depth tutorials, practical examples, and hands-on exercises covering a broad spectrum of Python topics. From fundamental concepts to advanced techniques, each section is designed to equip you with the knowledge and skills necessary to navigate the Python landscape like a true ninja. Embark on this journey to Python mastery, uncovering the secrets that will unleash your potential as a developer. Let's delve in and harness the power of your inner Python Ninja!
-
-This repository is designed to help refresh your Python skills by offering a comprehensive and step-by-step introduction to the Python programming language. Starting with the basics, the repository covers essential and advanced concepts required for programming in Python. Each section is structured in a clear and easily understandable manner, enabling learners to make progress quickly.
-
-In addition to gaining a solid understanding of Python programming, learners will also gain insights into proven techniques and methods that can be applied to other programming languages. This repository also offers opportunities to improve skills through knowledge exchange and discussions within the community. So, whether you're a beginner or a seasoned programmer, this repository is an excellent resource to refresh and improve your Python skills.
-
 <details>
-<summary>Python Basics 📚</summary>
+<summary>1. Python Basics 📚</summary>
 
-- [Syntax](01_Python_Basics/01_Syntax/README.md) [👨‍💻](01_Python_Basics\01_Syntax\code)
+- [Syntax](01_Python_Basics/01_Syntax/README.md) [👨‍💻](01_Python_Basics\01_Syntax\README.md)
 - [Comments](01_Python_Basics/02_Comments/README.md) [👨‍💻](.\01_Python_Basics\02_Comments\code)
 - [Variables](01_Python_Basics/03_Variables/README.md) [👨‍💻](#)
 - [Constants](01_Python_Basics/04_Constants/README.md) [👨‍💻](#)
@@ -48,7 +43,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>Control Flow 🔄</summary>
+<summary>2. Control Flow 🔄</summary>
 
 - [If_Elif_Else](02_Control_Flow/01_If_Elif_Else/README.md) [👨‍💻](#)
 - [If_Else_Shorthand](02_Control_Flow/02_If_Else_Shorthand/README.md) [👨‍💻](#)
@@ -61,7 +56,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>Functions 🎯</summary>
+<summary>3. Functions 🎯</summary>
 
 - [Creating_a_Function](03_Functions/01_Creating_a_Function/README.md) [👨‍💻](#)
 - [Pass](03_Functions/02_Pass/README.md) [👨‍💻](#)
@@ -75,7 +70,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>Errors ❌</summary>
+<summary>4. Errors ❌</summary>
 
 - [User Input](04_Errors/01_User_Input/README.md) [👨‍💻](#)
 - [Shortcut](04_Errors/02_Shortcut/README.md) [👨‍💻](#)
@@ -88,7 +83,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>Modules 📦</summary>
+<summary>5. Modules 📦</summary>
 
 - [Modules](05_Modules/01_Modules/README.md) [👨‍💻](#)
 - [Importing](05_Modules/02_Importing/README.md) [👨‍💻](#)
@@ -100,7 +95,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>Lists 📋</summary>
+<summary>6. Lists 📋</summary>
 
 - [List_Comprehensions](06_Lists/01_List_Comprehensions/README.md) [👨‍💻](#)
 - [Slicing](06_Lists/02_Slicing/README.md) [👨‍💻](#)
@@ -110,7 +105,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>OOP 🏗️</summary>
+<summary>7. OOP 🏗️</summary>
 
 - [OOP](07_OOP/01_OOP/README.md) [👨‍💻](#)
 - [Classes_and_Objects](07_OOP/02_Classes_and_Objects/README.md) [👨‍💻](#)
@@ -132,7 +127,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>Built in Functions 🛠️</summary>
+<summary>8. Built in Functions 🛠️</summary>
 
 - [print()](08_Built_in_Functions/01_print()/README.md) [👨‍💻](#)
 - [enumerate()](08_Built_in_Functions/02_enumerate()/README.md) [👨‍💻](#)
@@ -156,7 +151,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>Dataclasses 📇</summary>
+<summary>9. Dataclasses 📇</summary>
 
 - [@dataclass](09_Dataclasses/01_@dataclass/README.md) [👨‍💻](#)
 - [Fields](09_Dataclasses/02_Fields/README.md) [👨‍💻](#)
@@ -168,7 +163,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>AsyncIO ⚙️</summary>
+<summary>10. AsyncIO ⚙️</summary>
 
 - [Intro](10_AsyncIO/01_Intro/README.md) [👨‍💻](#)
 - [Getting_Started](10_AsyncIO/02_Getting_Started/README.md) [👨‍💻](#)
@@ -179,7 +174,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>Advanced 🚀</summary>
+<summary>11. Advanced 🚀</summary>
 
 - [Mypy](11_Advanced/01_Mypy/README.md) [👨‍💻](#)
 - [Walrus_Operator](11_Advanced/02_Walrus_Operator/README.md) [👨‍💻](#)
@@ -189,7 +184,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>AsyncIO ⚙️</summary>
+<summary>12. AsyncIO ⚙️</summary>
 
 - Tasks
 - Gather
@@ -197,7 +192,7 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>Multithreading 🔄</summary>
+<summary>13. Multithreading 🔄</summary>
 
 - Threads
 - Locks
@@ -209,15 +204,21 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>Multiprocessing 🔄</summary>
+<summary>14. Multiprocessing 🔄</summary>
 
 - Processes
 - Pools Map
+- Pools Starmap
+- Pools Multiple Functions
+- Data Sharing Issue
+- Pipes
+- Queues
+- Lock & Semaphores
 
 </details>
 
 <details>
-<summary>Unit-Testing ✔️</summary>
+<summary>15. Unit-Testing ✔️</summary>
 
 - Fixtures
 - Conftest
@@ -228,15 +229,54 @@ In addition to gaining a solid understanding of Python programming, learners wil
 </details>
 
 <details>
-<summary>File-Management 📁</summary>
+<summary>16. File-Management 📁</summary>
  
-- 1
-- 2
+- File Handling
+- Reading Files
+- Writing Creating
+- Deleting Files
+- JSON
+- Handling JSON
+- Caching JSON
+- Glob
+- Pickling
+- YAML
+- TOML
 </details>
 
 <details>
-<summary>Design Patterns 🎨</summary>
+<summary>17. Design Patterns 🎨</summary>
+ 
+- Creational Patterns
+- Structural Patterns
+- Behavioral Patterns
+
+</details>
+
+
+<details>
+<summary>18. GUI</summary>
  
 - 1
 - 2
+- 3
+- 4
+ 
+</details>
+
+
+<details>
+<summary>19. Tips & Tricks 🎨</summary>
+ 
+- F-Strings
+- Tuples & Type Hinting
+- Flattening Lists
+- Elipses
+- Linting
+- #NOQA
+- Concatenating Strings
+- Backslashes
+- Underscores
+- List vs Arrays
+- IIFE in Python
 </details>
