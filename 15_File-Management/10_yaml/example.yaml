@@ -1,0 +1,10 @@
+employees:
+  - name: John Doe
+    age: 30
+    position: Software Engineer
+  - name: Jane Smith
+    age: 25
+    position: Data Analyst
+  - name: Tom Brown
+    age: 35
+    position: Project Manager
