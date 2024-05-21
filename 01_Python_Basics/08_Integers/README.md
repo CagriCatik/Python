@@ -35,7 +35,3 @@ quotient = a / b    # Output: 0.5 (Note: This result is a float)
 # Checking the type after division
 print(type(quotient))  # Output: <class 'float'>
 ```
-
-### Note
-
-Performing mathematical operations on integers allows for a wide range of calculations. However, when an operation results in a decimal, the data type changes to a float. In the example above, the division of `a` by `b` results in a float (`0.5`). The concept of floats will be covered in the next lesson.

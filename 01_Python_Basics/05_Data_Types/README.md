@@ -1,4 +1,3 @@
-
 # Python Data Types Overview
 
 In Python, data types are crucial for defining the nature of values, allowing logical operations with compatible values. This README provides an overview of the most common data types in Python along with code snippets and examples.
@@ -91,5 +90,3 @@ A frozen set is an immutable version of a set.
 ```python
 frozen_set = frozenset([1, 2, 3])
 ```
-
-Feel free to explore each data type in more detail as you progress through the course. Understanding these basics will be essential for comfortable Python programming.

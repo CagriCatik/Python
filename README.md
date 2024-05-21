@@ -8,7 +8,7 @@
 <details>
 <summary>1. Python Basics 📚</summary>
 
-- [Syntax](01_Python_Basics/01_Syntax/README.md) [👨‍💻](01_Python_Basics\01_Syntax\README.md)
+- [x] [Syntax](01_Python_Basics/01_Syntax/README.md) [👨‍💻](01_Python_Basics\01_Syntax\README.md)
 - [Comments](01_Python_Basics/02_Comments/README.md) [👨‍💻](.\01_Python_Basics\02_Comments\code)
 - [Variables](01_Python_Basics/03_Variables/README.md) [👨‍💻](#)
 - [Constants](01_Python_Basics/04_Constants/README.md) [👨‍💻](#)
@@ -280,3 +280,4 @@
 - List vs Arrays
 - IIFE in Python
 </details>
+

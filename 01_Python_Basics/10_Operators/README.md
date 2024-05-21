@@ -191,9 +191,3 @@ print(result)  # Output: True
 ```
 
 The `not` operator negates the result of the expression. It can be used to reverse the truth value of a condition.
-
-## Conclusion
-
-These examples cover the basic usage of logical operators in Python. As you progress through the course, you'll encounter more scenarios where these operators become valuable.
-
-Feel free to explore and modify the examples to deepen your understanding of logical operators in Python. If you have any questions or need further clarification, don't hesitate to reach out. Happy coding!
