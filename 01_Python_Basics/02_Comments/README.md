@@ -1,4 +1,3 @@
-
 # Clean Code and Commenting Practices
 
 In this guide, we'll explore the use of comments in Python code and the importance of maintaining clean and readable code. While it's crucial to write code that is self-explanatory, comments can be valuable for adding context or reminders.

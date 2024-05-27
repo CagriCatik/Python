@@ -1,4 +1,3 @@
-
 # Handling Exceptions
 
 In this tutorial, we will explore how to handle exceptions in Python using the `try` and `except` blocks. We'll start by understanding the basic syntax and then delve into practical examples to demonstrate their usage.

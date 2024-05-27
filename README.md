@@ -1,7 +1,7 @@
 # Python: Unleashing Your Inner Python Ninja 🐍
 
 <div style="text-align: left;">
-  <img src="image/cover.png" style="width: 20%; height: auto;">
+  <img src="image/cover.png" style="width: 40%; height: auto;">
   <p style="margin-right: 500px;">  The repository is a comprehensive guide tailored to enhance Python skills. It caters to both beginners and experienced developers, offering in-depth tutorials, practical examples, and hands-on exercises covering a wide range of Python topics. From fundamental concepts to advanced techniques, each section aims to equip learners with the knowledge and skills to navigate Python proficiently. The repository provides a structured and easily understandable approach, facilitating quick progress for learners. Additionally, it offers insights into techniques applicable to other programming languages and fosters community engagement for skill improvement. Whether you're starting out or seeking to refine your Python expertise, this repository serves as an invaluable resource.</p>
 </div>
 
@@ -45,13 +45,13 @@
 <details>
 <summary>2. Control Flow 🔄</summary>
 
-- [X] [If_Elif_Else](02_Control_Flow/01_If_Elif_Else/README.md)
-- [X] [If_Else_Shorthand](02_Control_Flow/02_If_Else_Shorthand/README.md)
-- [X] [For_Loop](02_Control_Flow/03_For_Loop/README.md)
-- [X] [While_Loop](02_Control_Flow/04_While_Loop/README.md)
-- [X] [Break_and_Continue](02_Control_Flow/05_Break_and_Continue/README.md)
-- [X] [Loop-Else](02_Control_Flow/06_Loop-Else/README.md)
-- [X] [Rock_Paper_Scissors](02_Control_Flow/07_Rock_Paper_Scissors/README.md)
+- [ ] [If_Elif_Else](02_Control_Flow/01_If_Elif_Else/README.md)
+- [ ] [If_Else_Shorthand](02_Control_Flow/02_If_Else_Shorthand/README.md)
+- [ ] [For_Loop](02_Control_Flow/03_For_Loop/README.md)
+- [ ] [While_Loop](02_Control_Flow/04_While_Loop/README.md)
+- [ ] [Break_and_Continue](02_Control_Flow/05_Break_and_Continue/README.md)
+- [ ] [Loop-Else](02_Control_Flow/06_Loop-Else/README.md)
+- [ ] [Rock_Paper_Scissors](02_Control_Flow/07_Rock_Paper_Scissors/README.md)
 
 </details>
 
@@ -85,39 +85,39 @@
 <details>
 <summary>5. Modules 📦</summary>
 
-- [Modules](05_Modules/01_Modules/README.md)
-- [Importing](05_Modules/02_Importing/README.md)
-- [if_name_main](05_Modules/03_if_name_main/README.md)
-- [Packages](05_Modules/04_Packages/README.md)
-- [Libraries](05_Modules/05_Libraries/README.md)
-- [Website_Status](05_Modules/06_Website_Status/README.md)
+- [ ] [Modules](05_Modules/01_Modules/README.md)
+- [ ] [Importing](05_Modules/02_Importing/README.md)
+- [ ] [if_name_main](05_Modules/03_if_name_main/README.md)
+- [ ] [Packages](05_Modules/04_Packages/README.md)
+- [ ] [Libraries](05_Modules/05_Libraries/README.md)
+- [ ] [Website_Status](05_Modules/06_Website_Status/README.md)
 
 </details>
 
 <details>
 <summary>6. Lists 📋</summary>
 
-- [List_Comprehensions](06_Lists/01_List_Comprehensions/README.md)
-- [Slicing](06_Lists/02_Slicing/README.md)
-- [Dont_Loop_Modify](06_Lists/03_Dont_Loop_Modify/README.md)
-- [Grocery_List](06_Lists/04_Grocery_List/README.md)
+- [ ] [List_Comprehensions](06_Lists/01_List_Comprehensions/README.md)
+- [ ] [Slicing](06_Lists/02_Slicing/README.md)
+- [ ] [Dont_Loop_Modify](06_Lists/03_Dont_Loop_Modify/README.md)
+- [ ] [Grocery_List](06_Lists/04_Grocery_List/README.md)
 
 </details>
 
 <details>
 <summary>7. OOP 🏗️</summary>
 
-- [OOP](07_OOP/01_OOP/README.md)
-- [Classes_and_Objects](07_OOP/02_Classes_and_Objects/README.md)
-- [init](07_OOP/03_init/README.md)
-- [self](07_OOP/04_self/README.md)
-- [Attributes_Class_and_Instance](07_OOP/05_Attributes_Class_and_Instance/README.md)
-- [Dunder_Methods](07_OOP/06_Dunder_Methods/README.md)
-- [str()_repr()](07_OOP/07_str()_repr()/README.md)
-- [eq()](07_OOP/08_eq()/README.md)
-- [Methods_Functions](07_OOP/09_Methods_Functions/README.md)
-- [Chat_Bot](07_OOP/10_Chat_Bot/README.md)
-- [Inheritance](07_OOP/11_Inheritance/README.md)
+- [ ] [OOP](07_OOP/01_OOP/README.md)
+- [ ] [Classes_and_Objects](07_OOP/02_Classes_and_Objects/README.md)
+- [ ] [init](07_OOP/03_init/README.md)
+- [ ] [self](07_OOP/04_self/README.md)
+- [ ] [Attributes_Class_and_Instance](07_OOP/05_Attributes_Class_and_Instance/README.md)
+- [ ] [Dunder_Methods](07_OOP/06_Dunder_Methods/README.md)
+- [ ] [str()_repr()](07_OOP/07_str()_repr()/README.md)
+- [ ] [eq()](07_OOP/08_eq()/README.md)
+- [ ] [Methods_Functions](07_OOP/09_Methods_Functions/README.md)
+- [ ] [Chat_Bot](07_OOP/10_Chat_Bot/README.md)
+- [ ] [Inheritance](07_OOP/11_Inheritance/README.md)
 - [super()](07_OOP/12_super()/README.md)
 - [@staticmethod](07_OOP/13_@staticmethod/README.md)
 - [@classmethod](07_OOP/14_@classmethod/README.md)
@@ -189,22 +189,22 @@
 <details>
 <summary>12. AsyncIO ⚙️</summary>
 
-- Introduction
-- Tasks
-- Gather
-- Website Status
+- [ ] Introduction
+- [ ] Tasks
+- [ ] Gather
+- [ ] Website Status
 
 </details>
 
 <details>
 <summary>13. Multithreading 🔄</summary>
 
-- Threads
-- Locks
-- Daemon-Threads
-- Semaphores
-- With Lock Semaphore
-- Race Conditions
+- [ ] Threads
+- [ ] Locks
+- [ ] Daemon-Threads
+- [ ] Semaphores
+- [ ] With Lock Semaphore
+- [ ] Race Conditions
 
 </details>
 

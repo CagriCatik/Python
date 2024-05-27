@@ -1,4 +1,3 @@
-
 # Reusable Code with Variables
 
 One of the fundamental principles in programming is reusability. We strive to create code that can be easily adapted and reused across various scenarios. The use of variables is a powerful concept that significantly enhances the reusability of our code.

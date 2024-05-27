@@ -2,7 +2,6 @@
 user_name = input("Enter your name: ")
 print("Hello, " + user_name + "!")
 
-
 # Correct syntax - Using conditional statements
 number = int(input("Enter a number: "))
 

@@ -1,0 +1,35 @@
+{
+    "responses": [
+      {
+        "response_type": "greeting",
+        "user_input": ["hello", "hi", "hey"],
+        "bot_response": "Hey there!",
+        "required_words": []
+      },
+      {
+        "response_type": "farewell",
+        "user_input": ["goodbye", "bye", "see you"],
+        "bot_response": "See you later!",
+        "required_words": []
+      },
+      {
+        "response_type": "meet",
+        "user_input": ["nice to meet you"],
+        "bot_response": "Nice to meet you too!",
+        "required_words": ["nice", "meet", "you"]
+      },
+      {
+        "response_type": "learn_code",
+        "user_input": ["how to learn coding", "how to code", "coding apps"],
+        "bot_response": "Start by typing how to learn coding on Google.",
+        "required_words": ["code"]
+      },
+      {
+        "response_type": "wellbeing",
+        "user_input": ["how are you"],
+        "bot_response": "I'm great, thanks for asking.",
+        "required_words": ["how", "are", "you"]
+      }
+    ]
+  }
+  
