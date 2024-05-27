@@ -1,14 +1,6 @@
-# Python Print Statement Tutorial
+# Python Print Statement
 
 Welcome to the Python Print Statement tutorial! In this tutorial, we will explore the various features and functionalities of the `print` statement in Python. The `print` statement is a fundamental tool in Python for displaying information in the console.
-
-1. [Introduction](#introduction)
-2. [Basic Usage](#basic-usage)
-3. [Customizing Output](#customizing-output)
-4. [Changing the End Character](#changing-the-end-character)
-5. [Unpacking Arguments](#unpacking-arguments)
-6. [Additional Arguments (file and flush)](#additional-arguments-file-and-flush)
-7. [Conclusion](#conclusion)
 
 ## Introduction
 
