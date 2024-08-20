@@ -1,88 +1,73 @@
-############################
-# Managing Global and Local Scopes
-############################
+# Global scope
+number = 999
+text = "Global"
 
-# Global variable
-global_variable = 50
+def outer_function():
+    # Enclosing (nonlocal) scope
+    number = 20
+    text = "Enclosing"
 
-def local_scope_example():
-    # Local variable
-    local_variable = 10
-    
     def inner_function():
-        # Accessing both local and global variables
-        result = local_variable + global_variable
-        print("Inner Function Result:", result)
-    
-    # Calling the inner function
+        # Local scope
+        number = 10
+        print(f"Local 'number' in inner_function: {number}")  # This prints the local number
+        print(f"Enclosing 'text' in inner_function: {text}")  # This prints the enclosing text
+
+        # Demonstrating the built-in scope (no shadowing occurs)
+        length = len(text)
+        print(f"Using built-in 'len' function in inner_function: length of text = {length}")
+
+        # Modifying the enclosing scope variable using nonlocal
+        nonlocal number
+        number = 30
+        print(f"Modified nonlocal 'number' in inner_function: {number}")
+
+    print(f"Before calling inner_function, 'number' in outer_function: {number}")
     inner_function()
+    print(f"After calling inner_function, 'number' in outer_function: {number}")
+
+def modify_global_number():
+    global number
+    print(f"Before modifying, 'number' in modify_global_number: {number}")
+    number = 1000
+    print(f"After modifying, 'number' in modify_global_number: {number}")
+
+def demonstrate_scope_resolution():
+    # Local variable
+    text = "Local"
+
+    # Accessing global variable directly
+    print(f"Global 'text' accessed directly: {globals()['text']}")
+
+    # Accessing local variable
+    print(f"Local 'text' in demonstrate_scope_resolution: {text}")
+
+    def enclosed_function():
+        # Enclosing (nonlocal) variable
+        nonlocal text
+        text = "Enclosing from demonstrate_scope_resolution"
+        print(f"Modified nonlocal 'text' in enclosed_function: {text}")
     
-    # Modifying the local variable
-    local_variable *= 2
-    print("Local Variable After Modification:", local_variable)
+    enclosed_function()
+    print(f"After calling enclosed_function, 'text' in demonstrate_scope_resolution: {text}")
 
-# Calling the function
-local_scope_example()
+# Execution
 
-# Attempting to access the local variable outside the function will result in an error
-# print("Trying to Access Local Variable Outside Function:", local_variable)
+print(f"Initial global 'number': {number}")
+print(f"Initial global 'text': {text}")
 
+# Test the outer and inner function interaction
+outer_function()
 
-############################
-# Explicitly Using Global Scope
-############################
+# Test modifying the global variable
+modify_global_number()
 
-# Global variable
-global_counter = 0
+# Final global variable check
+print(f"Final global 'number': {number}")
 
-def increment_global():
-    # Explicitly using the global keyword to modify the global variable
-    global global_counter
-    global_counter += 1
+# Demonstrate scope resolution order and usage of global and nonlocal keywords
+demonstrate_scope_resolution()
 
-def print_global():
-    # Accessing the global variable
-    print("Global Counter:", global_counter)
+# Final global variable check again
+print(f"Final global 'text': {text}")
 
-# Performing multiple increments
-increment_global()
-increment_global()
-increment_global()
-
-# Printing the global counter
-print_global()
-
-
-############################
-# Nested Scopes with Closures
-############################
-
-def outer_function(x):
-    # Outer function parameter
-    outer_param = x
-
-    def inner_function(y):
-        # Inner function parameter
-        inner_param = y
-        
-        # Closure combining outer and inner parameters
-        def closure_function(z):
-            # Accessing variables from both outer and inner scopes
-            result = outer_param + inner_param + z
-            return result
-        
-        return closure_function
-
-    return inner_function
-
-# Creating closures with different parameters
-closure_1 = outer_function(5)(10)
-closure_2 = outer_function(15)(20)
-
-# Calling closures
-result_1 = closure_1(3)
-result_2 = closure_2(7)
-
-# Displaying results
-print("Closure 1 Result:", result_1)
-print("Closure 2 Result:", result_2)

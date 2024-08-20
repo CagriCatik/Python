@@ -1,46 +1,123 @@
 # Understanding Python Scopes
 
-In Python, the concept of scopes defines the visibility and accessibility of variables in different parts of your code. This README.md will provide a brief explanation of scopes and include code snippets to illustrate their impact.
+In Python, scopes define the accessibility and lifespan of variables within different regions of a program. Scoping rules determine how variables and names are resolved in nested contexts, affecting how values are assigned, modified, and accessed throughout the code. Understanding Python's scope mechanism is crucial for writing clean, maintainable, and bug-free code. This tutorial provides an in-depth explanation of Python scopes, supplemented by illustrative code snippets.
 
 ## Global Scope
 
-Let's start by creating a variable, `number`, in the global scope with a value of 999.
+### Concept
+
+The global scope is the outermost scope in Python, where variables are defined at the top level of a script or module. Variables defined in the global scope are accessible from any part of the code, including functions, unless shadowed by a local variable of the same name.
+
+### Example
+
+Consider the following example where we define a variable `number` in the global scope:
 
 ```python
 number = 999
 ```
 
-Here, `number` is defined in the outermost layer of the script, the global scope.
+Here, `number` is globally accessible throughout the script. This means that any function or block of code can access this variable, as long as there is no local variable with the same name.
 
 ## Local Scope
 
-Now, let's create a function called `change_number` that attempts to modify the `number` variable in its local scope.
+### Concept
+
+A local scope is created when a function is called. Variables defined within this function exist only in that scope and cannot be accessed from outside the function. These local variables are isolated from the global scope, meaning that modifying a variable in the local scope does not affect a global variable of the same name.
+
+### Example
+
+Let's define a function `change_number` that creates a local variable `number`:
 
 ```python
 def change_number():
     number = 10
 ```
 
-Inside the function, a local variable `number` is created. However, this local variable shadows the global `number`, and any modifications are limited to the local scope.
+Within the `change_number` function, the `number` variable is local. This local variable shadows the global `number`, meaning that any reference to `number` within `change_number` refers to the local variable, not the global one. However, this local variable ceases to exist once the function terminates, leaving the global `number` unchanged.
 
-## Inner Function
+## Enclosing (Nonlocal) Scope
 
-If we create an inner function, such as `inner`, we can continue using the variable within the same scope.
+### Concept
 
-```python
-def inner():
-    print(number)
-```
+An enclosing scope occurs when a function is nested within another function. The nested function can access variables from its enclosing function, but cannot directly modify them unless the `nonlocal` keyword is used. The enclosing scope exists between the local and global scopes.
 
-This inner function still has access to the global `number` without any issues.
+### Example
 
-## Scope Interaction
-
-However, attempting to change the global `number` directly within the function won't work as expected.
+Consider the following code with an inner function:
 
 ```python
-def print_number():
-    print(number)
+def outer_function():
+    number = 20
+
+    def inner_function():
+        print(number)
+    
+    inner_function()
 ```
 
-While `print_number` can access the global `number` and print its value, assigning a new value to it will create a local variable, not affecting the global scope. In general, avoiding excessive use of the global scope is recommended to prevent confusion and maintain code clarity. In the next lecture, we'll explore ways to explicitly work with variables from the outer scope or the global scope, allowing modifications within functions.
+Here, `inner_function` can access the `number` variable defined in `outer_function`. This is an example of a nonlocal scope. The `number` in `inner_function` refers to the `number` in `outer_function`, which is neither local to `inner_function` nor global. However, if you try to assign a value to `number` within `inner_function`, it will create a local variable, leaving the `number` in `outer_function` unchanged.
+
+### Nonlocal Variable Modification
+
+To modify a variable in the enclosing scope, the `nonlocal` keyword is required:
+
+```python
+def outer_function():
+    number = 20
+
+    def inner_function():
+        nonlocal number
+        number = 30
+    
+    inner_function()
+    print(number)  # This will print 30
+```
+
+Using `nonlocal number` allows `inner_function` to modify the `number` variable defined in `outer_function`.
+
+## Global Keyword
+
+### Concept
+
+To modify a global variable from within a function, Python provides the `global` keyword. Without this keyword, assigning a value to a variable within a function creates a new local variable, even if a global variable with the same name exists.
+
+### Example
+
+Consider the following example:
+
+```python
+number = 999
+
+def modify_global_number():
+    global number
+    number = 1000
+
+modify_global_number()
+print(number)  # This will print 1000
+```
+
+Here, the `global` keyword allows the `modify_global_number` function to modify the global `number` variable, changing its value to 1000. Without the `global` keyword, a local variable `number` would be created within the function, leaving the global `number` unchanged.
+
+## Scope Interaction and Best Practices
+
+### Scope Resolution Order (LEGB Rule)
+
+Python resolves variables using the LEGB rule, which stands for:
+- **Local**: The innermost scope, containing variables defined within the function.
+- **Enclosing**: The scope of any enclosing functions, applicable for nested functions.
+- **Global**: The top-level scope of the script or module.
+- **Built-in**: The outermost scope, containing built-in names like `len`, `range`, etc.
+
+When Python encounters a variable, it checks these scopes in order: Local → Enclosing → Global → Built-in.
+
+### Avoiding Scope-Related Issues
+
+Excessive reliance on global variables can lead to code that is difficult to understand and maintain. Therefore, it is recommended to:
+- Minimize the use of global variables.
+- Use function parameters and return values to pass data in and out of functions.
+- Leverage local scopes to contain variables within specific functions or blocks of code.
+- Use the `nonlocal` keyword with care, as it can introduce subtle bugs if not used correctly.
+
+### Summary
+
+Understanding Python's scoping rules is essential for writing efficient and error-free code. By distinguishing between local, enclosing, and global scopes, developers can manage variable lifecycles effectively, avoiding common pitfalls associated with variable shadowing and unintended global modifications. Following best practices related to scope management contributes to cleaner, more maintainable codebases.
