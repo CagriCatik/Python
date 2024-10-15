@@ -1,4 +1,3 @@
-
 # Asynchronous Programming with Asyncio in Python
 
 This tutorial will guide you through the basics of using Asyncio in Python for asynchronous programming. Asyncio is a built-in module that allows you to write asynchronous code, enabling more efficient handling of tasks that involve waiting, such as network requests or I/O operations.
@@ -91,5 +90,3 @@ async def main():
 ```
 
 By creating tasks using `asyncio.create_task`, we can initiate multiple asynchronous functions simultaneously. This allows the script to run more efficiently, making the most of asynchronous capabilities.
-
-Now, when you run your script, you'll see both tasks starting almost simultaneously, demonstrating the power of asynchronous programming with Asyncio.a

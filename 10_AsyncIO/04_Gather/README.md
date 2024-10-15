@@ -1,4 +1,3 @@
-
 # Asynchronous Operations with Futures in Python
 
 In this tutorial, we will explore the concept of futures in Python to efficiently handle multiple asynchronous tasks. Instead of creating individual tasks and awaiting each one separately, we will use futures to initiate multiple tasks simultaneously.
@@ -61,8 +60,4 @@ async def fetch_data(input_value, delay, fails=False):
     return {"input": input_value, "result": f"Data for {input_value}"}
 ```
 
-Now, when calling `fetch_data(3, 2, fails=True)`, it will simulate a task that raises an exception. The `asyncio.gather()` function, with `return_exceptions=True`, ensures that the exceptions are captured and returned along with the results.
-
-## Conclusion
-
-By using futures and `asyncio.gather()`, you can efficiently handle multiple asynchronous tasks in a single block of code. Additionally, you learned how to handle exceptions within the gathering process and print results in a more readable format. Experiment with these concepts to enhance your understanding of asynchronous programming in Python.
+Now, when calling `fetch_data(3, 2, fails=True)`, it will simulate a task that raises an exception. The `asyncio.gather()` function, with `return_exceptions=True`, ensures that the exceptions are captured and returned along with the results. By using futures and `asyncio.gather()`, you can efficiently handle multiple asynchronous tasks in a single block of code. Additionally, you learned how to handle exceptions within the gathering process and print results in a more readable format. Experiment with these concepts to enhance your understanding of asynchronous programming in Python.

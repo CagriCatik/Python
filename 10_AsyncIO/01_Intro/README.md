@@ -1,7 +1,6 @@
-
 # Asynchronous Programming with Async IO Tutorial
 
-Welcome to this section of the course where we'll dive into asynchronous programming with a focus on async IO. In this tutorial, we'll explore the concept of async IO, understand its purpose, and see how it can be beneficial in handling IO-bound tasks.
+In this tutorial, we'll explore the concept of async IO, understand its purpose, and see how it can be beneficial in handling IO-bound tasks.
 
 ## What is Async IO?
 
@@ -23,10 +22,4 @@ response_one = await function_one()  # Takes 2 seconds
 response_two = await function_two()  # Takes 1 second
 ```
 
-In the synchronous example, we would wait for `function_one` to complete before moving on to `function_two`, resulting in a total execution time of 3 seconds. However, with async IO, we can start both functions seemingly simultaneously, allowing the program to proceed with other tasks while waiting for responses.
-
-It's crucial to note that async IO doesn't speed up code execution; instead, it enables the continuation of other code while waiting for external sources' results, such as server responses or web page data.
-
-## Practical Examples
-
-In the upcoming lectures, we'll delve into practical examples to demonstrate how to implement and benefit from async IO in various scenarios. Stay tuned for hands-on experience and real-world applications of asynchronous programming. If the theoretical part left you with questions, the practical examples will provide clarity and enhance your understanding of async IO.
+In the synchronous example, we would wait for `function_one` to complete before moving on to `function_two`, resulting in a total execution time of 3 seconds. However, with async IO, we can start both functions seemingly simultaneously, allowing the program to proceed with other tasks while waiting for responses. It's crucial to note that async IO doesn't speed up code execution; instead, it enables the continuation of other code while waiting for external sources' results, such as server responses or web page data.
