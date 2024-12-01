@@ -1,9 +1,8 @@
 # Python: Unleashing Your Inner Python Ninja 🐍
 
-<div style="text-align: left;">
-  <img src="image/cover.png" style="width: 40%; height: auto;">
-  <p style="margin-right: 500px;">  The repository is a comprehensive guide tailored to enhance Python skills. It caters to both beginners and experienced developers, offering in-depth tutorials, practical examples, and hands-on exercises covering a wide range of Python topics. From fundamental concepts to advanced techniques, each section aims to equip learners with the knowledge and skills to navigate Python proficiently. The repository provides a structured and easily understandable approach, facilitating quick progress for learners. Additionally, it offers insights into techniques applicable to other programming languages and fosters community engagement for skill improvement. Whether you're starting out or seeking to refine your Python expertise, this repository serves as an invaluable resource.</p>
-</div>
+<img src="image/cover.png" style="width: 40%; height: auto;">
+
+The repository is a comprehensive guide tailored to enhance Python skills. It caters to both beginners and experienced developers, offering in-depth tutorials, practical examples, and hands-on exercises covering a wide range of Python topics. From fundamental concepts to advanced techniques, each section aims to equip learners with the knowledge and skills to navigate Python proficiently. The repository provides a structured and easily understandable approach, facilitating quick progress for learners. Additionally, it offers insights into techniques applicable to other programming languages and fosters community engagement for skill improvement. Whether you're starting out or seeking to refine your Python expertise, this repository serves as an invaluable resource.
 
 <details>
 <summary>1. Python Basics 📚</summary>
@@ -187,12 +186,16 @@
 </details>
 
 <details>
-<summary>12. AsyncIO ⚙️</summary>
+<summary>12. Multiprocessing ⚙️</summary>
 
-- [ ] Introduction
-- [ ] Tasks
-- [ ] Gather
-- [ ] Website Status
+- [ ] Processes
+- [ ] Pools Map
+- [ ] Pools Starmap
+- [ ] Pools Multiple Functions
+- [ ] Data Sharing Issue
+- [ ] Pipes
+- [ ] Queues
+- [ ] Lock & Semaphores
 
 </details>
 
@@ -209,22 +212,9 @@
 </details>
 
 <details>
-<summary>14. Multiprocessing 🔄</summary>
+<summary>14. Unit-Testing 🔄</summary>
 
-- [ ] Processes
-- [ ] Pools Map
-- [ ] Pools Starmap
-- [ ] Pools Multiple Functions
-- [ ] Data Sharing Issue
-- [ ] Pipes
-- [ ] Queues
-- [ ] Lock & Semaphores
-
-</details>
-
-<details>
-<summary>15. Unit-Testing ✔️</summary>
-
+- [ ] Introduction
 - [ ] Fixtures
 - [ ] Conftest
 - [ ] Marks
@@ -234,7 +224,7 @@
 </details>
 
 <details>
-<summary>16. File-Management 📁</summary>
+<summary>15. File-Management 📁</summary>
 
 - [ ] File Handling
 - [ ] Reading Files
@@ -251,7 +241,7 @@
 </details>
 
 <details>
-<summary>17. Design Patterns 🎨</summary>
+<summary>16. Design Patterns 🎨</summary>
 
 - [ ] Creational Patterns
 - [ ] Structural Patterns
@@ -260,12 +250,28 @@
 </details>
 
 <details>
-<summary>18. GUI</summary>
+<summary>17. GUI</summary>
 
-- [ ] Text
-- [ ] Text
-- [ ] Text
-- [ ] Text
+- [ ] PySide Basics
+- [ ] Using QT Designer for Rapid UI Development
+- [ ] Working with Menus and Toolbars
+- [ ] Dialogs and Input Handling
+- [ ] Advanced Widgets and Customization
+- [ ] Signal-Slot Mechanism
+- [ ] Multi-Threading with PySide
+- [ ] Building Data-Driven Applications
+- [ ] Incorporating Multimedia and Graphics
+- [ ] Creating Cross-Platform Applications
+- [ ] Real World Projects
+
+</details>
+
+<details>
+<summary>18. Projects 🎨</summary>
+
+- [ ] Heatmap
+- [ ] Race Condition
+- [ ] Path Normalizer
 
 </details>
 

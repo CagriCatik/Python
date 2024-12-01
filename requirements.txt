@@ -1,1 +1,3 @@
-Flask==2.0.3
+Flask
+PySide6
+quamash
