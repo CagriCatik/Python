@@ -1,4 +1,4 @@
-# Data Class with Mutable Defaults Tutorial
+# Data Class with Mutable Defaults
 
 ## Step 1: Importing Dependencies
 

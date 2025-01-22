@@ -1,4 +1,4 @@
-# Python Post Initializers Tutorial
+# Post Initializers
 
 We'll create a simple example of a `Fruit` class with attributes such as name, grams, price per kilo, and total price. The post initializer will be used to calculate the total price based on the grams and price per kilo after the original initializer is called.
 

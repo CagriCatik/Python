@@ -1,5 +1,5 @@
 
-# Using @property in Python
+# Using @property
 
 In Python, the `@property` decorator is a powerful tool for creating class properties, allowing you to define methods that can be accessed like attributes. This tutorial will walk you through a scenario where the use of `@property` is beneficial, using a class representing fruit pricing as an example.
 

@@ -1,4 +1,4 @@
-# Python Note Taking App
+# Note Taking App
 
 This tutorial will guide you through creating a simple note-taking app in Python using data classes and regular classes. The app will allow you to add, edit, and delete notes. We will also use the `Uuid` library to generate unique identifiers for each note.
 

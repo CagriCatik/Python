@@ -1,4 +1,4 @@
-# Python Data Classes Tutorial
+# Data Classes
 
 Data classes in Python offer a convenient way to create classes whose main purpose is to hold and represent data. While you can achieve similar functionality using regular classes, data classes provide enhanced readability, comparability, and reduce boilerplate code. To begin, let's import the `dataclass` decorator from the `dataclasses` module. We will use this decorator to create our data class.
 

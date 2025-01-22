@@ -1,4 +1,4 @@
-# Tutorial: Using Post Initializer with Init Var in Data Classes
+# Post Initializer with Init Var
 
 ## Step 1: Import the init file
 
