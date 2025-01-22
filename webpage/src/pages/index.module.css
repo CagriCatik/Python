@@ -10,6 +10,19 @@
   overflow: hidden;
 }
 
+.heroImage {
+  max-width: 100%; /* Ensures the image doesn't exceed its container */
+  height: auto; /* Maintains aspect ratio */
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .heroImage {
+    max-width: 20%; /* Adjust for larger screens */
+  }
+}
+
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
