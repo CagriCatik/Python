@@ -1,14 +1,4 @@
 # Getting Started
-
-<h1 align="center">
-  <img 
-    src="https://miro.medium.com/v2/resize:fit:1400/1*ei_Ce5ZqUHkhF9N1oku3Hg.gif" 
-    alt="Python - Data Analysis" 
-    style={{ width: '50%' }} 
-  />
-</h1>
-
-
 ---
 <details>
 <summary>1. Series</summary>
