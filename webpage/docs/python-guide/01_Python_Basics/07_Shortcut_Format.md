@@ -1,7 +1,5 @@
 # Shortcut
 
-Have you ever found yourself typing Python code in a hurry, only to realize later that it looks messy and lacks proper formatting? Well, fear not! This README introduces a handy shortcut to quickly format your code and make it more readable.
-
 ## The Problem
 
 Consider the following poorly formatted Python code snippet:

@@ -1,4 +1,4 @@
-# None Type in Python
+# None Type
 
 The `None` type in Python is a special data type used to represent the absence of a value or the concept of nothing. It is often returned by certain functions to indicate that no meaningful value is available. 
 

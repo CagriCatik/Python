@@ -1,4 +1,4 @@
-# Floating Point Precision in Python
+# Floating Point Precision
 
 Floating-point arithmetic is a fundamental aspect of computational mathematics, yet it presents challenges due to the limitations of precision in representing real numbers. This tutorial critically examines these challenges within the Python programming language and provides rigorous solutions for addressing them using the `isclose` function from the `math` module.
 

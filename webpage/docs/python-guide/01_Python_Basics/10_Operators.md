@@ -1,7 +1,5 @@
 # Numeric Operations
 
-In this example, we'll explore the various arithmetic operators available in Python for numeric data types. We'll cover basic arithmetic operators, floor division, exponentiation, modulus, and introduce assignment operators for efficient coding.
-
 ## Arithmetic Operators
 
 ```python
@@ -68,11 +66,7 @@ x %= 3   # Output: 0 (modulus)
 
 Feel free to experiment with these examples to deepen your understanding of Python's numeric operations. If you have any questions or need further clarification, refer to the comments and explanations provided in the code snippets. Happy coding!
 
-# Comparison Operators in Python
-
-This README.md file provides an overview of comparison operators in Python and includes code snippets with examples to illustrate their usage.
-
-## Introduction
+# Comparison Operators
 
 Comparison operators in Python are used to compare values and return a boolean based on the result of the comparison. This can be useful for making decisions in your code based on the relationships between different variables.
 

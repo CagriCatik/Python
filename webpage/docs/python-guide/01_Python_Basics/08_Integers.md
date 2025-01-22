@@ -1,12 +1,8 @@
 # Integer Data Type
 
-In this repository, we'll explore Python data types in more detail, focusing on the integer data type. Each data type will be explained thoroughly with code snippets and examples.
-
-## Definition
-
 An integer in Python represents any whole number. It can be positive, negative, or zero.
 
-### Examples
+## Examples
 
 ```python
 # Creating integers

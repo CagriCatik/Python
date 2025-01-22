@@ -2,9 +2,7 @@
 
 In Python, constants are not explicitly defined, but we rely on a naming convention to indicate that a variable should be treated as a constant, meaning its value should not be changed throughout the program. Typically, constant variable names are written in uppercase characters.
 
-## Examples
-
-### Example 1: Pi as a Constant
+## Example 1: Pi as a Constant
 
 ```python
 # Define pi as a constant
@@ -18,7 +16,7 @@ area = PI * radius**2
 print(f"The area of a circle with radius {radius} is: {area}")
 ```
 
-### Example 2: Version Number as a Constant
+## Example 2: Version Number as a Constant
 
 ```python
 # Define the version number as a constant

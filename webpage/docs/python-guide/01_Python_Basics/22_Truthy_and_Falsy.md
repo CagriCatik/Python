@@ -1,4 +1,4 @@
-# Truthy and Falsy Values in Python
+# Truthy and Falsy Values
 
 In Python, every object can be categorized as either truthy or falsy. While the most explicit examples are the `True` and `False` booleans, it's important to note that these booleans are essentially constants representing 1 and 0, respectively. You can use any non-zero number as truthy and zero as falsy. For instance, using 1 instead of `True` and 0 instead of `False` is completely valid.
 

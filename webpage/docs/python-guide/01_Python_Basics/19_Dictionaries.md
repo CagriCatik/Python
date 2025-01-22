@@ -1,4 +1,3 @@
-
 # Dictionary
 
 In Python, dictionaries provide a convenient way to store data using a key-value pair structure. This part introduces you to the basics of dictionaries and includes code snippets with examples.
