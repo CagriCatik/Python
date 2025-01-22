@@ -1,4 +1,4 @@
-# Unit Testing in Python
+# Unit Testing
 
 Unit testing is a crucial aspect of software development that ensures individual units of code work as expected. This guide will provide a thorough understanding of unit testing in Python, the benefits it offers, and practical implementation using the `pytest` framework.
 

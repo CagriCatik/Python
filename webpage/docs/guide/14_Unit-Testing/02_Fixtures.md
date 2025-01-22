@@ -1,4 +1,4 @@
-# Using Fixtures in Pytest for Unit Testing
+# Using Fixtures in Pytest
 
 ## Introduction
 

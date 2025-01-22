@@ -1,5 +1,5 @@
 
-# Understanding the `else` Block in `for` and `while` Loops in Python
+# `else` Block in `for` and `while` Loops
 
 ## Introduction
 

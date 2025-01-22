@@ -1,4 +1,3 @@
-
 # Asynchronous Website Status Checker
 
 In this Python project, we will create an asynchronous website status checker using the power of asynchronous tasks. This program efficiently fetches the status of multiple websites and provides detailed information about each request.

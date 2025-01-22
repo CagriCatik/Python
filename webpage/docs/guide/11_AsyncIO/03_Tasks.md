@@ -1,4 +1,4 @@
-# Async IO Tasks Tutorial
+# Tasks
 
 Tasks are scheduled and independently managed coroutines, providing flexibility in handling asynchronous operations.
 

@@ -97,7 +97,7 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'guiSidebar',
+            sidebarId: 'restAPISidebar',
             position: 'left',
             label: '🐍 REST-API',
           },

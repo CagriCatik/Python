@@ -1,5 +1,5 @@
 
-# Looping Functionality in Python
+# Looping
 
 ## Introduction to For Loops in Python
 
