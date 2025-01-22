@@ -1,5 +1,5 @@
 
-# Python Functions Tutorial
+# Functions
 
 In this tutorial, we'll explore the basics of creating and using functions in Python. Functions play a crucial role in enhancing the readability, reusability, and maintainability of your code.
 

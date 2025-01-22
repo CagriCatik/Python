@@ -1,4 +1,4 @@
-# Manually Raising Exceptions in Python
+# Manually Raising Exceptions
 
 Errors are inevitable in programming, but understanding them is crucial for improving your skills. Python provides a mechanism to manually raise exceptions when needed, allowing you to handle unforeseen scenarios effectively. In this tutorial, we'll delve into the concept of raising exceptions manually with detailed explanations and code snippets.
 

@@ -1,4 +1,4 @@
-# Avoiding Star Imports in Python
+# Avoiding Star Imports
 
 Star imports in Python, such as `from module import *`, can be convenient but are often discouraged due to their potential to cause conflicts and obscure the origin of imported names. While they might seem harmless in small projects or simple scripts, they can lead to unexpected behavior as projects grow in complexity. This README outlines the risks associated with star imports and provides guidance on how to avoid them.
 

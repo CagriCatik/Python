@@ -1,5 +1,5 @@
 
-# Python Functions and Return Values Tutorial
+# Functions and Return Values
 
 In this tutorial, we will explore the concept of return values in Python functions. Return values allow us to obtain results from a function and use them elsewhere in our program.
 

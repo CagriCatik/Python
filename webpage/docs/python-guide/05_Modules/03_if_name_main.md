@@ -1,8 +1,4 @@
-## `if __name__ == "__main__"`
-
-This repository contains code examples and explanations related to the usage of `if __name__ == "__main__"` in Python scripts. This README provides a detailed explanation of how and why this construct is used, along with practical examples.
-
-## Usage of `if __name__ == "__main__"`
+# `if __name__ == "__main__"`
 
 The `if __name__ == "__main__"` construct in Python is used to execute a specific block of code only if the script is run directly. It helps in distinguishing whether the Python script is being run as the main program or being imported as a module in another script.
 

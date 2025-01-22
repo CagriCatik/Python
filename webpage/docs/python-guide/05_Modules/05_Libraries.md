@@ -1,4 +1,4 @@
-# Python Library vs Package
+# Library vs. Package
 
 This repository serves as an explanatory guide on the distinctions between Python libraries and packages, often used interchangeably but carrying specific meanings within the Python ecosystem.
 

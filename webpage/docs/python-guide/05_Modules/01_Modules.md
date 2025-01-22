@@ -1,5 +1,5 @@
 
-# Python Modules
+# Modules
 
 This document provides an overview of Python modules, including what they are, how to create them, and various methods of importing and using them in your Python scripts.
 

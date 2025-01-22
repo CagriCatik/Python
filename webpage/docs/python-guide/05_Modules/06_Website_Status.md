@@ -1,4 +1,3 @@
-
 # Website Status Project
 
 This project aims to create a simple website status checker in Python. The program allows users to input a URL and provides information about the status of the website, including its online status, response code, presence of links, encoding, and whether it's a redirect or a permanent redirect.

@@ -1,4 +1,4 @@
-# Exception Handling in Python: Using `else` and `finally` Blocks
+# Exception Handling
 
 In the previous lesson, we delved into the basics of exception handling in Python, primarily utilizing the `try` and `except` blocks. However, Python provides additional constructs to enhance error handling capabilities: `else` and `finally` blocks. In this tutorial, we'll explore these blocks in detail with practical examples.
 

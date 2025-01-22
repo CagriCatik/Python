@@ -1,4 +1,4 @@
-# Creating and Using Python Packages
+# Creating and Using Packages
 
 Welcome to this guide on creating and using Python packages! In this tutorial, we'll walk through the process of creating your own Python package, which is essentially a collection of modules organized within a directory. Packages are a fundamental concept in Python development, allowing you to organize and distribute your code more efficiently.
 

@@ -1,5 +1,5 @@
 
-# Python Function Parameters and Defaults Tutorial
+# Function Parameters and Defaults
 
 In this tutorial, we'll explore how to use parameters and default values in Python functions to make them more flexible and customizable.
 
