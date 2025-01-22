@@ -1,4 +1,4 @@
-# Lambda Functions in Python
+# Lambda Functions
 
 Lambda functions, also known as anonymous functions, are short, concise functions that are often used for one-time operations. This tutorial will introduce you to the basics of lambda functions, their syntax, and their practical applications.
 

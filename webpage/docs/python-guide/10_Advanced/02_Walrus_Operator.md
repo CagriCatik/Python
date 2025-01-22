@@ -1,4 +1,4 @@
-# The Walrus Operator in Python
+# The Walrus Operator
 
 The walrus operator (`:=`), introduced in Python 3.8, enables assignment and evaluation in a single expression. This feature reduces redundant lines of code and can enhance readability in specific scenarios. However, using it requires careful consideration to maintain code clarity.
 

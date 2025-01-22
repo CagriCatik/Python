@@ -1,5 +1,5 @@
 
-# Creating a JSON Cache for API Data
+# Caching JSON
 
 In this tutorial, we'll learn how to create a JSON cache for API data in Python. This will help us avoid making repetitive requests to the API by storing the fetched data locally. We'll be using the `requests` library for making HTTP requests and the `json` module for handling JSON data.
 

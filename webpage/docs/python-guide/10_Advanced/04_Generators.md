@@ -1,4 +1,4 @@
-# Generators in Python
+# Generators
 
 Generators are a powerful concept in Python that offer memory efficiency and lazy evaluation. They enable the creation of iterators using a function, making them highly useful for handling large data sets or scenarios where memory optimization is crucial.
 

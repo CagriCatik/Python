@@ -1,71 +1,166 @@
-# YAML
+# TOML
 
-## Introduction to YAML
+TOML (Tom's Obvious, Minimal Language) is a human-readable data serialization format designed to be easy to read and write. It is commonly used for configuration files due to its simplicity and support for nested structures. TOML provides a clear structure for representing key-value pairs, arrays, and tables, making it a popular choice among developers.
 
-YAML (YAML Ain't Markup Language) is a human-readable data serialization format. It is commonly used for configuration files, data exchange between applications, and also as a language-independent alternative to XML or JSON. YAML's simplicity and readability make it popular among developers.
+## TOML Syntax
 
-## YAML Syntax
+TOML uses key-value pairs, tables, and arrays to structure data. Here's an example:
 
-YAML uses indentation and whitespace to represent data structures. It supports various data types including mappings (key-value pairs), sequences (arrays/lists), strings, integers, floats, booleans, null values, and more.
+```toml
+# Example TOML file
+[database]
+host = "127.0.0.1"
+port = 5432
+user = "admin"
+password = "secret"
 
-Here's a basic example of YAML syntax:
+[servers]
+active = true
+locations = ["us-east", "us-west", "eu-central"]
 
-```yaml
-key1: value1
-key2: value2
-nested_key:
-  - item1
-  - item2
+[servers.backup]
+enabled = false
+frequency = "daily"
 ```
 
-## Installing PyYAML
+## Installing a TOML Library
 
-PyYAML is a Python library that allows you to work with YAML files. To install PyYAML, you can use pip, Python's package manager:
+To work with TOML files in Python, install the `toml` or `tomli` library. Python 3.11 and above have native support for TOML through the `tomllib` module.
+
+### For Python 3.10 or earlier:
 
 ```bash
-pip install pyyaml
+pip install toml
 ```
 
-## Reading YAML Files in Python
+Or, if you prefer `tomli`:
 
-You can use the `yaml` module in Python to read YAML files. The `yaml.safe_load()` function is commonly used to safely load YAML data from a file or a string.
+```bash
+pip install tomli
+```
+
+## Reading TOML Files in Python
+
+You can read TOML files using the `toml` or `tomllib` module (for Python 3.11+).
+
+### Example: Reading a TOML File
 
 ```python
-import yaml
+import toml
 
-with open('data.yaml', 'r') as file:
-    data = yaml.safe_load(file)
+# Read TOML file
+data = toml.load('config.toml')
 
 print(data)
 ```
 
-## Writing YAML Files in Python
-
-To write data to a YAML file in Python, you can use the `yaml.dump()` function. It serializes Python data into a YAML formatted string.
+For Python 3.11 and above:
 
 ```python
-import yaml
+import tomllib
 
-data = {
-    'key1': 'value1',
-    'key2': [1, 2, 3],
-    'key3': {'nested_key': 'nested_value'}
-}
+# Read TOML file
+with open('config.toml', 'rb') as file:
+    data = tomllib.load(file)
 
-with open('output.yaml', 'w') as file:
-    yaml.dump(data, file)
+print(data)
 ```
 
-## Advanced Usage
+This code parses the `config.toml` file and converts it into a Python dictionary.
 
-### Handling Custom Objects
+## Writing TOML Files in Python
 
-PyYAML supports serialization and deserialization of custom objects. You can define custom `representer` and `constructor` functions to handle serialization and deserialization of custom objects respectively.
+The `toml` library allows you to write Python data structures into TOML format.
 
-### Handling Anchors and Aliases
+### Example: Writing a TOML File
 
-YAML allows the use of anchors (`&`) and aliases (`*`) to reference the same data elsewhere in the document. PyYAML provides support for handling anchors and aliases during parsing and dumping YAML data.
+```python
+import toml
+
+# Data to write
+data = {
+    "database": {
+        "host": "127.0.0.1",
+        "port": 5432,
+        "user": "admin",
+        "password": "secret"
+    },
+    "servers": {
+        "active": True,
+        "locations": ["us-east", "us-west", "eu-central"],
+        "backup": {
+            "enabled": False,
+            "frequency": "daily"
+        }
+    }
+}
+
+# Write to TOML file
+with open('output.toml', 'w') as file:
+    toml.dump(data, file)
+```
+
+This example writes the `data` dictionary to `output.toml` in TOML format.
+
+## Using Nested Tables
+
+TOML supports nested tables, which are represented as nested dictionaries in Python.
+
+### Example: Nested Tables
+
+```toml
+[package]
+name = "example"
+version = "1.0.0"
+
+dependencies = ["requests", "flask"]
+
+[package.settings]
+enabled = true
+features = ["debug", "logging"]
+```
+
+In Python, this TOML file would load as:
+
+```python
+{
+    "package": {
+        "name": "example",
+        "version": "1.0.0",
+        "dependencies": ["requests", "flask"],
+        "settings": {
+            "enabled": True,
+            "features": ["debug", "logging"]
+        }
+    }
+}
+```
+
+## Error Handling
+
+When working with TOML files, handle exceptions to manage syntax errors or missing files gracefully.
+
+### Example: Handling Errors
+
+```python
+import toml
+
+try:
+    data = toml.load('config.toml')
+    print(data)
+except toml.TomlDecodeError as e:
+    print(f"TOML Syntax Error: {e}")
+except FileNotFoundError:
+    print("The specified file does not exist.")
+```
+
+## Use Cases for TOML
+
+1. **Configuration Files**: TOML is ideal for defining settings and preferences in a structured, human-readable format.
+2. **Dependency Management**: Tools like `poetry` use TOML for managing dependencies in Python projects.
+3. **Data Serialization**: TOML can be used for lightweight data exchange between systems.
 
 ## Conclusion
 
-YAML is a versatile data serialization format that is widely used in the software development community. With PyYAML, you can easily work with YAML files in Python, enabling seamless integration of YAML data into your Python applications. Whether you're reading configuration files, exchanging data between systems, or storing structured data, YAML combined with Python offers a powerful and flexible solution.
+TOML is a powerful and user-friendly format for configuration and data serialization. With Python's `toml` library or the built-in `tomllib` (Python 3.11+), you can easily read, write, and manipulate TOML files in your projects. Its simplicity and readability make it an excellent choice for developers looking for a structured, human-readable format.
+
