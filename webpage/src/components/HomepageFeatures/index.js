@@ -4,30 +4,55 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Developer Guide',
     description: (
       <>
-        Our platform is designed with simplicity in mind, ensuring that you can get started quickly and focus on your goals without unnecessary complexity.
+        Comprehensive guides to help developers get started and navigate the platform with ease, covering key concepts and best practices.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Data Analysis',
     description: (
       <>
-        Spend less time on setup and more time on what truly matters—building, creating, and achieving your objectives with confidence.
+        Tools and resources to support advanced data analysis, providing insights and facilitating data-driven decision-making.
       </>
     ),
   },
   {
-    title: 'Powerful and Flexible',
+    title: 'Design Patterns',
     description: (
       <>
-        Leverage a robust feature set and customizable options that adapt to your unique needs, empowering you to reach new heights.
+        Explore robust design patterns to build scalable and maintainable applications, tailored to diverse use cases.
+      </>
+    ),
+  },
+  {
+    title: 'GUI',
+    description: (
+      <>
+        A user-friendly graphical interface that simplifies interaction and enhances productivity, with intuitive navigation.
+      </>
+    ),
+  },
+  {
+    title: 'REST-API',
+    description: (
+      <>
+        A powerful RESTful API to seamlessly integrate and extend functionalities, ensuring smooth communication between services.
+      </>
+    ),
+  },
+  {
+    title: 'Tips & Tricks',
+    description: (
+      <>
+        Handy tips and tricks to help you maximize your efficiency and get the most out of the platform's features.
       </>
     ),
   },
 ];
+
 
 function Feature({title, description}) {
   return (

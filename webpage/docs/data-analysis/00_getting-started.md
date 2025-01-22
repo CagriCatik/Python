@@ -1,5 +1,5 @@
 # Getting Started
----
+
 <details>
 <summary>1. Series</summary>
 
@@ -13,8 +13,6 @@
 - [ ] Accessing elements via index 🔖
 
 </details>
-
----
 
 <details>
 <summary>2. Data Frames</summary>
@@ -47,8 +45,6 @@
 
 </details>
 
----
-
 <details>
 <summary>3. String Operations</summary>
 
@@ -57,8 +53,6 @@
 - [ ] Index & columns 🔢🔠
 
 </details>
-
----
 
 <details>
 <summary>4. Reshaping Datasets</summary>
@@ -71,8 +65,6 @@
 - [ ] groupby() 🔍
 
 </details>
-
----
 
 <details>
 <summary>5. Combining Datasets</summary>
@@ -87,8 +79,6 @@
 - [ ] Merging with different column names 🔗
 
 </details>
-
----
 
 <details>
 <summary>6. Time Series</summary>
@@ -106,8 +96,6 @@
 
 </details>
 
----
-
 <details>
 <summary>7. Data Visualization </summary>
 
@@ -123,8 +111,6 @@
 - [ ] Bar Chart Race
 
 </details>
-
----
 
 <details>
 <summary>8. Numpy</summary>
@@ -151,8 +137,6 @@
 
 </details>
 
----
-
 <details>
 <summary>9. Projects</summary>
 
@@ -161,6 +145,3 @@
 - [ ] Vehicle Price Prediction 🧮
 
 </details>
-
----
-
