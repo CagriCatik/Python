@@ -2,108 +2,255 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://CagriCatik.github.io/Python/blog</id>
     <title>Python Guide Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-01-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://CagriCatik.github.io/Python/blog"/>
     <subtitle>Python Guide Blog</subtitle>
     <icon>https://CagriCatik.github.io/Python/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://CagriCatik.github.io/Python/blog/welcome</id>
-        <link href="https://CagriCatik.github.io/Python/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+        <title type="html"><![CDATA[Why This Overburden Python Guide Besides GPT?]]></title>
+        <id>https://CagriCatik.github.io/Python/blog/why-python-guide-over-gpt</id>
+        <link href="https://CagriCatik.github.io/Python/blog/why-python-guide-over-gpt"/>
+        <updated>2025-01-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover the importance of mastering Python as a programming language in an AI-assisted coding era.]]></summary>
+        <content type="html"><![CDATA[<p>In recent years, tools like GPT have transformed the way developers approach coding. With a simple prompt, you can generate functional code snippets for virtually any programming task. However, as incredible as this technology is, relying solely on AI-generated solutions without understanding the underlying concepts is a risky strategy. That’s where the <strong>Overburden Python Guide</strong> comes in.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-role-of-knowledge-in-programming">The Role of Knowledge in Programming<a href="https://cagricatik.github.io/Python/blog/why-python-guide-over-gpt#the-role-of-knowledge-in-programming" class="hash-link" aria-label="Direct link to The Role of Knowledge in Programming" title="Direct link to The Role of Knowledge in Programming">​</a></h2>
+<p>Programming languages are more than just syntax; they’re a way to think logically, solve problems, and create robust systems. Here’s why mastering Python—or any programming language—is essential:</p>
+<ol>
+<li>
+<p><strong>Foundational Understanding</strong>:
+AI tools excel at creating solutions quickly, but without a foundation in Python, you may struggle to:</p>
 <ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
+<li>Debug generated code.</li>
+<li>Modify it to fit unique scenarios.</li>
+<li>Optimize its performance.</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://cagricatik.github.io/Python/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+<p>Understanding how Python’s constructs work—from list comprehensions to generator functions—enables you to build on the generated code rather than being confined by it.</p>
+</li>
+<li>
+<p><strong>Problem Solving and Critical Thinking</strong>:
+Writing code by hand cultivates problem-solving skills and teaches you to:</p>
+<ul>
+<li>Break down problems into smaller, manageable parts.</li>
+<li>Identify edge cases that AI might miss.</li>
+<li>Design algorithms that fit your specific use case.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ownership of Your Code</strong>:
+Code isn’t just about making things work; it’s about writing maintainable, scalable, and elegant solutions. Relying too much on generated code can result in solutions that lack:</p>
+<ul>
+<li>Readability for teams.</li>
+<li>Flexibility for future updates.</li>
+</ul>
+</li>
+<li>
+<p><strong>Job Market Reality</strong>:
+Companies value developers who understand what happens behind the scenes. Being able to explain your code, your design choices, and why certain approaches are better than others is a skill no AI can replace.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-the-overburden-python-guide-offers">What the Overburden Python Guide Offers<a href="https://cagricatik.github.io/Python/blog/why-python-guide-over-gpt#what-the-overburden-python-guide-offers" class="hash-link" aria-label="Direct link to What the Overburden Python Guide Offers" title="Direct link to What the Overburden Python Guide Offers">​</a></h2>
+<p>This guide focuses on:</p>
+<ol>
+<li>
+<p><strong>Deep Dives into Core Concepts</strong>:
+Learn about Python’s inner workings, like memory management, advanced data structures, and metaprogramming.</p>
+</li>
+<li>
+<p><strong>Real-World Use Cases</strong>:
+Move beyond toy examples and tackle projects like:</p>
+<ul>
+<li>Building APIs.</li>
+<li>Creating data pipelines.</li>
+<li>Implementing machine learning models.</li>
+</ul>
+</li>
+<li>
+<p><strong>Error Handling and Debugging</strong>:
+Gain expertise in debugging techniques—a critical skill that GPT cannot fully emulate.</p>
+</li>
+<li>
+<p><strong>Performance Optimization</strong>:
+Understand why some algorithms and data structures outperform others, especially for large-scale applications.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-augment-not-replace-your-skills">Why Augment, Not Replace, Your Skills<a href="https://cagricatik.github.io/Python/blog/why-python-guide-over-gpt#why-augment-not-replace-your-skills" class="hash-link" aria-label="Direct link to Why Augment, Not Replace, Your Skills" title="Direct link to Why Augment, Not Replace, Your Skills">​</a></h2>
+<p>GPT and similar tools are fantastic productivity boosters. They’re invaluable for generating boilerplate code, researching libraries, or even suggesting optimizations. But they should <strong>augment your skills, not replace them</strong>. The knowledge you gain from mastering Python will:</p>
+<ul>
+<li>Allow you to critically assess AI-generated code.</li>
+<li>Equip you to design and implement custom solutions.</li>
+<li>Make you a stronger and more independent developer.</li>
+</ul>]]></content>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Facebook" term="Facebook"/>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://CagriCatik.github.io/Python/blog/mdx-blog-post</id>
-        <link href="https://CagriCatik.github.io/Python/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<button>Click me!</button>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://CagriCatik.github.io/Python/blog/long-blog-post</id>
-        <link href="https://CagriCatik.github.io/Python/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
+            <name>Çağrı Çatık</name>
+            <uri>https://github.com/CagriCatik</uri>
         </author>
         <category label="Hello" term="Hello"/>
         <category label="Docusaurus" term="Docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://CagriCatik.github.io/Python/blog/first-blog-post</id>
-        <link href="https://CagriCatik.github.io/Python/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <title type="html"><![CDATA[The Importance of Software Architecture]]></title>
+        <id>https://CagriCatik.github.io/Python/blog/importance-of-software-architecture</id>
+        <link href="https://CagriCatik.github.io/Python/blog/importance-of-software-architecture"/>
+        <updated>2025-01-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understanding the foundation of software architecture and why it is crucial for building robust systems.]]></summary>
+        <content type="html"><![CDATA[<p>In the world of software development, the importance of software architecture often takes a backseat to code implementation and feature delivery. However, software architecture serves as the backbone of any successful project, defining the structure, scalability, and maintainability of your system. Understanding how to architect software is a cornerstone of creating reliable, efficient, and future-proof applications.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-software-architecture">What is Software Architecture?<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#what-is-software-architecture" class="hash-link" aria-label="Direct link to What is Software Architecture?" title="Direct link to What is Software Architecture?">​</a></h2>
+<p>Software architecture is the high-level structure of a software system. It encompasses the choices made regarding:</p>
+<ol>
+<li>
+<p>System Components:</p>
+<ul>
+<li>Defining modules, services, and layers.</li>
+<li>Determining how these components interact.</li>
+</ul>
+</li>
+<li>
+<p>Design Patterns:</p>
+<ul>
+<li>Choosing patterns like MVC, microservices, or event-driven architectures.</li>
+</ul>
+</li>
+<li>
+<p>Technology Stack:</p>
+<ul>
+<li>Selecting programming languages, frameworks, and tools that align with your goals.</li>
+</ul>
+</li>
+<li>
+<p>Quality Attributes:</p>
+<ul>
+<li>Ensuring scalability, security, performance, and maintainability.</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-is-software-architecture-important">Why is Software Architecture Important?<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#why-is-software-architecture-important" class="hash-link" aria-label="Direct link to Why is Software Architecture Important?" title="Direct link to Why is Software Architecture Important?">​</a></h2>
+<ol>
+<li>
+<p>Scalability:
+A well-architected system can handle increased workloads without significant rework. For example, using a microservices architecture allows independent scaling of services.</p>
+</li>
+<li>
+<p>Maintainability:
+Clear separation of concerns and modular design make it easier to update or replace parts of the system without affecting the whole.</p>
+</li>
+<li>
+<p>Team Collaboration:
+A defined architecture provides a roadmap for teams, aligning their efforts and reducing confusion.</p>
+</li>
+<li>
+<p>Risk Mitigation:
+Poor architecture can lead to technical debt, increased costs, and system failures. A thoughtful design minimizes these risks.</p>
+</li>
+<li>
+<p>Future-Proofing:
+Technology evolves rapidly. A flexible architecture allows integration of new technologies and paradigms without significant overhaul.</p>
+</li>
+<li>
+<p>GPT vs. Real Architects:
+While tools like GPT are excellent at generating code snippets and providing quick solutions, they are not yet capable of acting as true software architects. Real architects bring a nuanced understanding of system design, trade-offs, and long-term implications—skills that AI is not equipped to replicate, at least not yet.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-principles-of-software-architecture">Key Principles of Software Architecture<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#key-principles-of-software-architecture" class="hash-link" aria-label="Direct link to Key Principles of Software Architecture" title="Direct link to Key Principles of Software Architecture">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-modularity">1. Modularity<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#1-modularity" class="hash-link" aria-label="Direct link to 1. Modularity" title="Direct link to 1. Modularity">​</a></h3>
+<p>Divide your system into smaller, independent modules with well-defined responsibilities. This:</p>
+<ul>
+<li>Reduces complexity.</li>
+<li>Improves testability.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-separation-of-concerns">2. Separation of Concerns<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#2-separation-of-concerns" class="hash-link" aria-label="Direct link to 2. Separation of Concerns" title="Direct link to 2. Separation of Concerns">​</a></h3>
+<p>Each component should focus on a single aspect of the system, ensuring:</p>
+<ul>
+<li>Better organization.</li>
+<li>Easier debugging and maintenance.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-scalability-and-performance">3. Scalability and Performance<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#3-scalability-and-performance" class="hash-link" aria-label="Direct link to 3. Scalability and Performance" title="Direct link to 3. Scalability and Performance">​</a></h3>
+<p>Plan for growth by:</p>
+<ul>
+<li>Implementing caching strategies.</li>
+<li>Using load balancers.</li>
+<li>Adopting database sharding or replication.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-security-by-design">4. Security by Design<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#4-security-by-design" class="hash-link" aria-label="Direct link to 4. Security by Design" title="Direct link to 4. Security by Design">​</a></h3>
+<p>Incorporate security measures into your architecture, such as:</p>
+<ul>
+<li>Authentication and authorization mechanisms.</li>
+<li>Encryption for sensitive data.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-loose-coupling">5. Loose Coupling<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#5-loose-coupling" class="hash-link" aria-label="Direct link to 5. Loose Coupling" title="Direct link to 5. Loose Coupling">​</a></h3>
+<p>Minimize dependencies between components to:</p>
+<ul>
+<li>Allow independent development.</li>
+<li>Reduce the impact of changes.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-high-cohesion">6. High Cohesion<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#6-high-cohesion" class="hash-link" aria-label="Direct link to 6. High Cohesion" title="Direct link to 6. High Cohesion">​</a></h3>
+<p>Ensure related functionalities are grouped together to:</p>
+<ul>
+<li>Improve readability.</li>
+<li>Simplify debugging.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7-document-everything">7. Document Everything<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#7-document-everything" class="hash-link" aria-label="Direct link to 7. Document Everything" title="Direct link to 7. Document Everything">​</a></h3>
+<p>Create architectural diagrams, decision logs, and documentation to:</p>
+<ul>
+<li>Ensure clarity across teams.</li>
+<li>Serve as a reference for future developers.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="common-architectural-patterns">Common Architectural Patterns<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#common-architectural-patterns" class="hash-link" aria-label="Direct link to Common Architectural Patterns" title="Direct link to Common Architectural Patterns">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-monolithic-architecture">1. Monolithic Architecture<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#1-monolithic-architecture" class="hash-link" aria-label="Direct link to 1. Monolithic Architecture" title="Direct link to 1. Monolithic Architecture">​</a></h3>
+<p>A single unified codebase. Suitable for small applications but challenging to scale for larger systems.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-microservices-architecture">2. Microservices Architecture<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#2-microservices-architecture" class="hash-link" aria-label="Direct link to 2. Microservices Architecture" title="Direct link to 2. Microservices Architecture">​</a></h3>
+<p>Independent services that communicate over APIs. Ideal for scalability and complex systems.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-event-driven-architecture">3. Event-Driven Architecture<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#3-event-driven-architecture" class="hash-link" aria-label="Direct link to 3. Event-Driven Architecture" title="Direct link to 3. Event-Driven Architecture">​</a></h3>
+<p>Uses events to trigger actions between decoupled components. Great for systems requiring real-time processing.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-serverless-architecture">4. Serverless Architecture<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#4-serverless-architecture" class="hash-link" aria-label="Direct link to 4. Serverless Architecture" title="Direct link to 4. Serverless Architecture">​</a></h3>
+<p>Leverages cloud services to run code without managing infrastructure. Best for scalable and cost-efficient solutions.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-layered-architecture">5. Layered Architecture<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#5-layered-architecture" class="hash-link" aria-label="Direct link to 5. Layered Architecture" title="Direct link to 5. Layered Architecture">​</a></h3>
+<p>Separates concerns into layers (e.g., presentation, business logic, and data access). Widely used for web applications.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="challenges-in-software-architecture">Challenges in Software Architecture<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#challenges-in-software-architecture" class="hash-link" aria-label="Direct link to Challenges in Software Architecture" title="Direct link to Challenges in Software Architecture">​</a></h2>
+<ol>
+<li>
+<p>Balancing Trade-offs:
+Prioritizing between scalability, performance, and cost can be difficult.</p>
+</li>
+<li>
+<p>Evolving Requirements:
+Systems must adapt to changing business needs without compromising quality.</p>
+</li>
+<li>
+<p>Over-Engineering:
+Adding unnecessary complexity can slow down development and maintenance.</p>
+</li>
+<li>
+<p>Communication:
+Misalignment between stakeholders, developers, and architects can lead to flawed designs.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-improve-your-architecture-skills">How to Improve Your Architecture Skills<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#how-to-improve-your-architecture-skills" class="hash-link" aria-label="Direct link to How to Improve Your Architecture Skills" title="Direct link to How to Improve Your Architecture Skills">​</a></h2>
+<ol>
+<li>
+<p>Study Real-World Systems:
+Analyze the architecture of well-known systems like Netflix, Amazon, or Google.</p>
+</li>
+<li>
+<p>Experiment:
+Build small projects using different architectural patterns to understand their strengths and weaknesses.</p>
+</li>
+<li>
+<p>Stay Updated:
+Read books, blogs, and attend conferences to keep up with evolving best practices.</p>
+</li>
+<li>
+<p>Collaborate:
+Work with experienced architects to gain insights and mentorship.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://cagricatik.github.io/Python/blog/importance-of-software-architecture#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>Software architecture is not just about technical choices; it’s about creating a foundation for long-term success. By mastering architectural principles and patterns, you equip yourself to build systems that are robust, scalable, and adaptable. Remember, tools like GPT can assist in generating code and providing recommendations, but they lack the strategic vision and critical thinking of a real architect. Start investing in this critical skill today, and watch your projects flourish.</p>]]></content>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+            <name>Çağrı Çatık</name>
+            <uri>https://github.com/CagriCatik</uri>
         </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Hola" term="Hola"/>
+        <category label="Hello" term="Hello"/>
         <category label="Docusaurus" term="Docusaurus"/>
     </entry>
 </feed>
