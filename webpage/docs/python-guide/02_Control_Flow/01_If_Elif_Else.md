@@ -1,4 +1,4 @@
-# Control Flow and Conditional Statements in Python
+# Control Flow and Conditional Statements
 
 Understanding control flow and conditional statements is a fundamental aspect of programming in Python. This tutorial will guide you through the basics of using `if`, `elif`, and `else` statements to create logical decision-making processes in your code.
 

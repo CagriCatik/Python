@@ -1,4 +1,4 @@
-# Understanding Equality vs. Identity in Python
+# Equality vs. Identity
 
 One common mistake among beginners learning Python is the confusion between the equality operator (`==`) and the identity operator (`is`). While they serve similar purposes, their usage and behavior are distinctly different. This tutorial will elucidate these differences, illustrate their correct applications, and highlight common pitfalls.
 

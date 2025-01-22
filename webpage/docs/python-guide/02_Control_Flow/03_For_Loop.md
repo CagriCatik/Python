@@ -1,7 +1,4 @@
-
-# Looping
-
-## Introduction to For Loops in Python
+# For Loop
 
 In Python, looping constructs are essential for repetitive tasks. One of the fundamental looping mechanisms is the `for` loop. This tutorial delves into the `for` loop, illustrating its syntax and functionality through examples.
 

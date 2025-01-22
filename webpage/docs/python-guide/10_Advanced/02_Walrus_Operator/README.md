@@ -1,5 +1,5 @@
 
-# Python Walrus Operator Examples
+# Walrus Operator
 
 In recent years, Python introduced a new operator known as the walrus operator (`:=`). This operator allows for the creation of a variable and the evaluation of an expression simultaneously, reducing the need for additional lines of code. However, it's crucial to note that the walrus operator was introduced in Python 3.8, so using it in earlier versions will result in errors.
 

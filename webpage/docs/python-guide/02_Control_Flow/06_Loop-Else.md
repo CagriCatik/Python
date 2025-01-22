@@ -1,4 +1,3 @@
-
 # `else` Block in `for` and `while` Loops
 
 ## Introduction

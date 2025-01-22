@@ -1,4 +1,4 @@
-# Building a Rock, Paper, Scissors Game in Python
+# Building a Rock, Paper, Scissors Game
 
 In this tutorial, we will create a classic game of Rock, Paper, Scissors in Python. This project will incorporate basic artificial intelligence to simulate an opponent. The steps outlined will guide you through setting up the game, handling user input, implementing game logic, and displaying the results. Additionally, we will suggest a bonus assignment to further enhance your Python skills.
 

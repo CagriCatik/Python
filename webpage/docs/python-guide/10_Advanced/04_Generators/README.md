@@ -1,5 +1,5 @@
 
-# Generators in Python
+# Generators
 
 Welcome to this tutorial on generators in Python! Generators are a powerful concept that offers memory efficiency and lazy evaluation. Let's dive into the basics and explore some examples.
 

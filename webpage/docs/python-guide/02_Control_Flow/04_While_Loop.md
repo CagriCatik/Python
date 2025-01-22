@@ -1,5 +1,4 @@
-
-# Understanding Looping Constructs in Python
+# While Loop
 
 Python provides powerful looping constructs that allow developers to iterate over sequences and execute code repeatedly. This tutorial will delve into the intricacies of the `for` loop and the `while` loop, highlighting their usage, advantages, and potential pitfalls. We will also examine scenarios where each type of loop is appropriate.
 

@@ -1,5 +1,5 @@
 
-# Mypy Static Type Checker Tutorial
+# Mypy Static Type Checker 
 
 In this tutorial, we'll explore the benefits of using Mypy, a powerful static type checker for Python. While code editors can catch some mistakes when annotating object types, Mypy ensures a more comprehensive check of types, especially in complex scenarios.
 

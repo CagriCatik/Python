@@ -1,4 +1,3 @@
-
 # `break` and `continue`
 
 In Python, loops are a fundamental part of controlling the flow of a program. They allow for repeated execution of a block of code. Two important control keywords that can be used within loops are `break` and `continue`. These keywords provide additional control by allowing us to prematurely exit a loop or skip specific iterations. This tutorial provides a detailed examination of these keywords and their use cases.

@@ -1,5 +1,5 @@
 
-# Lambda Functions in Python
+# Lambda Functions
 
 Welcome to this tutorial on using lambda functions in Python! In this lesson, we'll explore the basics of lambda functions, how to create them, and how to use them effectively.
 
