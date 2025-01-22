@@ -97,6 +97,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'guiSidebar',
+            position: 'left',
+            label: '🐍 REST-API',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'tipsAndTricksSidebar',
             position: 'left',
             label: '🐍 Tips & Tricks',
