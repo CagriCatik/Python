@@ -1,6 +1,4 @@
-# R.I.P GIL in Python 3.13: Will Python Become Faster?
-
-## Introduction
+# R.I.P GIL in Python 3.13
 
 The Global Interpreter Lock (GIL) has long been a contentious feature of Python's CPython interpreter. It acts as a synchronization mechanism, ensuring that only one thread executes Python bytecode at a time. This constraint has significant implications for Python's ability to handle multi-threaded operations efficiently, particularly in CPU-bound tasks. However, with the introduction of Python 3.13, the possibility of disabling the GIL has emerged. This tutorial critically examines the impact of this development on Python's performance, particularly in multi-threaded and multi-processed environments.
 

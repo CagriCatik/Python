@@ -1,4 +1,4 @@
-# Understanding the `self` Parameter in Python
+# `self`
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# Granularity and Cohesion in Programming
+# Granularity and Cohesion
 
 **Granularity** and **cohesion** are key concepts in software design that influence how you structure your code. They impact readability, maintainability, and the overall design quality of your software.
 

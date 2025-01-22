@@ -1,7 +1,7 @@
 # Getting Started
 
 <details>
-<summary>1. Python Basics 📚</summary>
+<summary>1. Python Basics</summary>
 
 - [ ] [Syntax](01_Python_Basics/01_Syntax/README.md)
 - [ ] [Comments](01_Python_Basics/02_Comments/README.md)
@@ -38,7 +38,7 @@
 </details>
 
 <details>
-<summary>2. Control Flow 🔄</summary>
+<summary>2. Control Flow</summary>
 
 - [ ] [If_Elif_Else](02_Control_Flow/01_If_Elif_Else/README.md)
 - [ ] [If_Else_Shorthand](02_Control_Flow/02_If_Else_Shorthand/README.md)
@@ -51,7 +51,7 @@
 </details>
 
 <details>
-<summary>3. Functions 🎯</summary>
+<summary>3. Functions</summary>
 
 - [ ] [Creating_a_Function](03_Functions/01_Creating_a_Function/README.md)
 - [ ] [Pass](03_Functions/02_Pass/README.md)
@@ -65,7 +65,7 @@
 </details>
 
 <details>
-<summary>4. Errors ❌</summary>
+<summary>4. Errors</summary>
 
 - [ ] [User Input](04_Errors/01_User_Input/README.md)
 - [ ] [Shortcut](04_Errors/02_Shortcut/README.md)
@@ -78,7 +78,7 @@
 </details>
 
 <details>
-<summary>5. Modules 📦</summary>
+<summary>5. Modules</summary>
 
 - [ ] [Modules](05_Modules/01_Modules/README.md)
 - [ ] [Importing](05_Modules/02_Importing/README.md)
@@ -90,7 +90,7 @@
 </details>
 
 <details>
-<summary>6. Lists 📋</summary>
+<summary>6. Lists</summary>
 
 - [ ] [List_Comprehensions](06_Lists/01_List_Comprehensions/README.md)
 - [ ] [Slicing](06_Lists/02_Slicing/README.md)
@@ -100,7 +100,7 @@
 </details>
 
 <details>
-<summary>7. OOP 🏗️</summary>
+<summary>7. OOP</summary>
 
 - [ ] [OOP](07_OOP/01_OOP/README.md)
 - [ ] [Classes_and_Objects](07_OOP/02_Classes_and_Objects/README.md)
@@ -122,7 +122,7 @@
 </details>
 
 <details>
-<summary>8. Built in Functions 🛠️</summary>
+<summary>8. Built in Functions</summary>
 
 - [print()](08_Built_in_Functions/01_print()/README.md)
 - [enumerate()](08_Built_in_Functions/02_enumerate()/README.md)
@@ -146,7 +146,7 @@
 </details>
 
 <details>
-<summary>9. Dataclasses 📇</summary>
+<summary>9. Dataclasses</summary>
 
 - [@dataclass](09_Dataclasses/01_@dataclass/README.md)
 - [Fields](09_Dataclasses/02_Fields/README.md)
@@ -158,7 +158,7 @@
 </details>
 
 <details>
-<summary>10. AsyncIO ⚙️</summary>
+<summary>10. AsyncIO</summary>
 
 - [Intro](10_AsyncIO/01_Intro/README.md)
 - [Getting_Started](10_AsyncIO/02_Getting_Started/README.md)
@@ -169,7 +169,7 @@
 </details>
 
 <details>
-<summary>11. Advanced 🚀</summary>
+<summary>11. Advanced</summary>
 
 - [Mypy](11_Advanced/01_Mypy/README.md)
 - [Walrus_Operator](11_Advanced/02_Walrus_Operator/README.md)
@@ -182,7 +182,7 @@
 </details>
 
 <details>
-<summary>12. AsyncIO ⚙️</summary>
+<summary>12. AsyncIO</summary>
 
 - [ ] Introduction
 - [ ] Tasks
@@ -192,7 +192,7 @@
 </details>
 
 <details>
-<summary>13. Multithreading 🔄</summary>
+<summary>13. Multithreading</summary>
 
 - [ ] Threads
 - [ ] Locks
@@ -204,7 +204,7 @@
 </details>
 
 <details>
-<summary>14. Multiprocessing 🔄</summary>
+<summary>14. Multiprocessing</summary>
 
 - [ ] Processes
 - [ ] Pools Map
@@ -218,7 +218,7 @@
 </details>
 
 <details>
-<summary>15. Unit-Testing ✔️</summary>
+<summary>15. Unit-Testing</summary>
 
 - [ ] Fixtures
 - [ ] Conftest
@@ -229,7 +229,7 @@
 </details>
 
 <details>
-<summary>16. File-Management 📁</summary>
+<summary>16. File-Management</summary>
 
 - [ ] File Handling
 - [ ] Reading Files
@@ -246,7 +246,7 @@
 </details>
 
 <details>
-<summary>17. Design Patterns 🎨</summary>
+<summary>17. Design Patterns</summary>
 
 - [ ] Creational Patterns
 - [ ] Structural Patterns
@@ -265,7 +265,7 @@
 </details>
 
 <details>
-<summary>19. Tips & Tricks 🎨</summary>
+<summary>19. Tips & Tricks</summary>
 
 - [ ] F-Strings
 - [ ] Tuples & Type Hinting

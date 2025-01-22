@@ -1,4 +1,4 @@
-# What Exactly is `yield from` in Python?
+# `yield from`
 
 In Python, `yield from` is a sophisticated feature introduced in PEP 380 (Python Enhancement Proposal) that simplifies the delegation of part of a generator's operations to another generator. Understanding how `yield from` works can be a significant advantage for Python developers, particularly when working with generators and coroutines. This tutorial will provide a thorough explanation of `yield from`, breaking down its syntax, usage, and the scenarios where it becomes essential.
 
