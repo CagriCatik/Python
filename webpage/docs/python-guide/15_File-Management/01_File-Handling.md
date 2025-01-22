@@ -1,4 +1,4 @@
-# File Handling in Python
+# File Handling
 
 In this tutorial, we'll delve into the fundamentals of file handling in Python. Whether you're dealing with text files, JSON files, or images, understanding how to interact with files programmatically is essential. We'll cover basic file operations such as creating, reading, writing, and appending to files.
 

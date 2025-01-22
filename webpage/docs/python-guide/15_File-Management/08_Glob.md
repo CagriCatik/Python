@@ -1,20 +1,20 @@
-## Exploring Files with the Globe Module in Python
+# Globe Module
 
 In this tutorial, we'll delve into the usage of the Globe module in Python, which facilitates finding path names matching specific patterns within directories. The Globe module employs Unix shell-like rules for pattern matching, allowing users to efficiently locate files throughout their computer's directory structure.
 
-### Understanding the Globe Module:
+## Understanding the Globe Module:
 
 The Globe module in Python allows us to search for files within directories based on specified patterns. These patterns are akin to those used in Unix shells, providing powerful capabilities for file discovery. Let's dive into the key features and syntax of the Globe module:
 
-#### Importing the Globe Module:
+### Importing the Globe Module:
 
 ```python
 import glob
 ```
 
-### Finding Files:
+## Finding Files:
 
-#### Basic Usage:
+### Basic Usage:
 
 The basic usage of the Globe module involves using the `glob.glob()` function to find files based on a specified pattern. The function returns a list of path names matching the pattern.
 
@@ -24,7 +24,7 @@ files = glob.glob("index.js")
 print(files)  # Output: ['index.js']
 ```
 
-#### Pattern Matching:
+### Pattern Matching:
 
 Globe allows pattern matching using special characters:
 
@@ -48,7 +48,7 @@ files = glob.glob("[!il]*.js")  # Matches files not starting with 'i' or 'l' and
 print(files)
 ```
 
-#### Recursive Search:
+### Recursive Search:
 
 To search for files recursively in subdirectories, use the `**` syntax.
 
@@ -58,7 +58,7 @@ files = glob.glob("**/*.js", recursive=True)  # Searches for all JavaScript file
 print(files)
 ```
 
-#### Using Generator Version:
+### Using Generator Version:
 
 To avoid loading all file names at once, you can use the iterator version of `glob`. This returns a generator, which yields file names one by one.
 

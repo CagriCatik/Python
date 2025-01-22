@@ -1,4 +1,4 @@
-# File Manipulation Tutorial
+# File Manipulation
 
 In this tutorial, we will learn how to manipulate text files in Python, including reading, writing, and appending text. We will cover different modes of file operations and how to handle them effectively.
 

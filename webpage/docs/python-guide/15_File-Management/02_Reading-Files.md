@@ -1,4 +1,4 @@
-# File Handling with the `with` Statement in Python
+# File Handling with the `with` Statement
 
 In this tutorial, we'll explore how to handle files in Python using the `with` statement along with the `open()` function. This approach ensures clean opening and closing of files, eliminating the need to manually call the `close()` method. We'll cover reading text from files, reading lines, creating a list from lines, and the benefits of using the `with` statement for file handling.
 
