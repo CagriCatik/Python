@@ -1,57 +1,34 @@
-# Creational Design Patterns
+# Introduction
 
-Creational design patterns are a category of design patterns in software engineering that deal with object creation mechanisms. They provide solutions to common problems related to object creation, such as managing complexity, ensuring flexibility, and improving scalability. In this tutorial, we will explore three fundamental creational design patterns: Singleton, Factory, and Builder.
+Creational design patterns deal with object creation mechanisms, aiming to create objects in a manner suitable to the situation. They ensure that the system is decoupled from the specifics of the object creation process.
 
 ## 1. Singleton Pattern
+The **Singleton Pattern** ensures that a class has only one instance and provides a global point of access to that instance.
 
-The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance. It is useful when you want to restrict the instantiation of a class to a single object, which can be shared across the entire application.
+**Use Case**: Managing shared resources, such as configuration objects or connection pools.
 
-### Key Features:
-
-- Private constructor to prevent direct instantiation of the class.
-- Static member variable to hold the single instance of the class.
-- Static method to provide global access to the instance.
-
-### Implementation:
-
+**Implementation**:
 ```python
 class Singleton:
     _instance = None
-  
-    @staticmethod
-    def get_instance():
-        if Singleton._instance is None:
-            Singleton._instance = Singleton()
-        return Singleton._instance
-  
-    def __init__(self):
-        if Singleton._instance is not None:
-            raise Exception("This class is a singleton!")
+
+    def __new__(cls, *args, **kwargs):
+        if not cls._instance:
+            cls._instance = super().__new__(cls, *args, **kwargs)
+        return cls._instance
+
+# Usage
+s1 = Singleton()
+s2 = Singleton()
+print(s1 is s2)  # Output: True
 ```
 
-### Usage:
+## 2. Factory Method Pattern
+The **Factory Method Pattern** provides an interface for creating objects but allows subclasses to alter the type of objects that will be created.
 
-```python
-singleton_instance = Singleton.get_instance()
-```
+**Use Case**: Delegating the instantiation process to child classes.
 
-### Use Cases:
-
-- Logging mechanisms.
-- Database connection management.
-- Configuration settings.
-
-## 2. Factory Pattern
-
-The Factory pattern defines an interface for creating objects but lets subclasses alter the type of objects that will be created. It provides a way to delegate the instantiation logic to child classes, thereby promoting loose coupling and enhancing flexibility.
-
-### Key Features:
-
-- A common interface for creating objects.
-- Subclasses that implement the interface to provide different implementations.
-
-### Implementation:
-
+**Implementation**:
 ```python
 from abc import ABC, abstractmethod
 
@@ -62,109 +39,177 @@ class Product(ABC):
 
 class ConcreteProductA(Product):
     def operation(self):
-        return "ConcreteProductA operation"
+        return "Result of ConcreteProductA"
 
 class ConcreteProductB(Product):
     def operation(self):
-        return "ConcreteProductB operation"
+        return "Result of ConcreteProductB"
 
-class Factory(ABC):
+class Creator(ABC):
     @abstractmethod
-    def create_product(self):
+    def factory_method(self):
         pass
 
-class ConcreteFactoryA(Factory):
-    def create_product(self):
+    def some_operation(self):
+        product = self.factory_method()
+        return f"Creator: Working with {product.operation()}"
+
+class ConcreteCreatorA(Creator):
+    def factory_method(self):
         return ConcreteProductA()
 
-class ConcreteFactoryB(Factory):
-    def create_product(self):
+class ConcreteCreatorB(Creator):
+    def factory_method(self):
         return ConcreteProductB()
+
+# Usage
+creator = ConcreteCreatorA()
+print(creator.some_operation())  # Output: Creator: Working with Result of ConcreteProductA
 ```
 
-### Usage:
+## 3. Abstract Factory Pattern
+The **Abstract Factory Pattern** provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
+**Use Case**: Creating a suite of related objects, such as GUI components for different operating systems.
+
+**Implementation**:
 ```python
-factory_a = ConcreteFactoryA()
-product_a = factory_a.create_product()
-print(product_a.operation())  # Output: "ConcreteProductA operation"
+from abc import ABC, abstractmethod
+
+class AbstractFactory(ABC):
+    @abstractmethod
+    def create_product_a(self):
+        pass
+
+    @abstractmethod
+    def create_product_b(self):
+        pass
+
+class ConcreteFactory1(AbstractFactory):
+    def create_product_a(self):
+        return ProductA1()
+
+    def create_product_b(self):
+        return ProductB1()
+
+class ConcreteFactory2(AbstractFactory):
+    def create_product_a(self):
+        return ProductA2()
+
+    def create_product_b(self):
+        return ProductB2()
+
+class AbstractProductA(ABC):
+    @abstractmethod
+    def useful_function_a(self):
+        pass
+
+class AbstractProductB(ABC):
+    @abstractmethod
+    def useful_function_b(self):
+        pass
+
+class ProductA1(AbstractProductA):
+    def useful_function_a(self):
+        return "The result of ProductA1"
+
+class ProductB1(AbstractProductB):
+    def useful_function_b(self):
+        return "The result of ProductB1"
+
+class ProductA2(AbstractProductA):
+    def useful_function_a(self):
+        return "The result of ProductA2"
+
+class ProductB2(AbstractProductB):
+    def useful_function_b(self):
+        return "The result of ProductB2"
+
+# Usage
+factory = ConcreteFactory1()
+product_a = factory.create_product_a()
+product_b = factory.create_product_b()
+print(product_a.useful_function_a())  # Output: The result of ProductA1
+print(product_b.useful_function_b())  # Output: The result of ProductB1
 ```
 
-### Use Cases:
+## 4. Builder Pattern
+The **Builder Pattern** separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
 
-- Object creation that requires complex logic or configuration.
-- Dependency injection frameworks.
+**Use Case**: Building complex objects step-by-step, such as constructing HTML documents or meal plans.
 
-## 3. Builder Pattern
-
-The Builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations of the object. It is particularly useful when an object requires multiple steps for construction or when there are many configuration options.
-
-### Key Features:
-
-- Director class to manage the construction process.
-- Builder interface with methods for constructing parts of the object.
-- Concrete builder classes that implement the builder interface to provide specific construction implementations.
-
-### Implementation:
-
+**Implementation**:
 ```python
+class Builder:
+    def __init__(self):
+        self.product = Product()
+
+    def reset(self):
+        self.product = Product()
+
+    def produce_part_a(self):
+        self.product.add("PartA")
+
+    def produce_part_b(self):
+        self.product.add("PartB")
+
+    def produce_part_c(self):
+        self.product.add("PartC")
+
 class Product:
     def __init__(self):
-        self.part_a = None
-        self.part_b = None
+        self.parts = []
 
-class Builder:
-    def build_part_a(self):
-        pass
+    def add(self, part):
+        self.parts.append(part)
 
-    def build_part_b(self):
-        pass
-
-class ConcreteBuilder1(Builder):
-    def __init__(self):
-        self.product = Product()
-
-    def build_part_a(self):
-        self.product.part_a = "Part A1"
-
-    def build_part_b(self):
-        self.product.part_b = "Part B1"
-
-class ConcreteBuilder2(Builder):
-    def __init__(self):
-        self.product = Product()
-
-    def build_part_a(self):
-        self.product.part_a = "Part A2"
-
-    def build_part_b(self):
-        self.product.part_b = "Part B2"
+    def list_parts(self):
+        return ", ".join(self.parts)
 
 class Director:
     def __init__(self, builder):
         self.builder = builder
 
-    def construct(self):
-        self.builder.build_part_a()
-        self.builder.build_part_b()
-        return self.builder.product
+    def build_minimal_viable_product(self):
+        self.builder.produce_part_a()
+
+    def build_full_featured_product(self):
+        self.builder.produce_part_a()
+        self.builder.produce_part_b()
+        self.builder.produce_part_c()
+
+# Usage
+builder = Builder()
+director = Director(builder)
+
+director.build_minimal_viable_product()
+print(builder.product.list_parts())  # Output: PartA
+
+director.build_full_featured_product()
+print(builder.product.list_parts())  # Output: PartA, PartB, PartC
 ```
 
-### Usage:
+## 5. Prototype Pattern
+The **Prototype Pattern** allows objects to be cloned, reducing the overhead of creating objects from scratch.
 
+**Use Case**: When object creation is expensive or complex.
+
+**Implementation**:
 ```python
-builder1 = ConcreteBuilder1()
-director = Director(builder1)
-product1 = director.construct()
-print(product1.part_a)  # Output: "Part A1"
-print(product1.part_b)  # Output: "Part B1"
+import copy
+
+class Prototype:
+    def __init__(self, value):
+        self.value = value
+
+    def clone(self):
+        return copy.deepcopy(self)
+
+# Usage
+original = Prototype([1, 2, 3])
+clone = original.clone()
+print(original.value == clone.value)  # Output: True
+print(original is clone)  # Output: False
 ```
 
-### Use Cases:
 
-- Building complex objects with multiple configuration options.
-- Construction of objects with a step-by-step approach.
-
-## Conclusion
-
-Creational design patterns provide solutions to common problems related to object creation in software development. By understanding and implementing patterns like Singleton, Factory, and Builder, developers can improve code organization, maintainability, and flexibility in their applications. These patterns offer proven techniques for managing object creation complexity and promoting best practices in software design.
