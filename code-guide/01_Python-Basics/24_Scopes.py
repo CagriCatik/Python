@@ -18,7 +18,7 @@ def outer_function():
         print(f"Using built-in 'len' function in inner_function: length of text = {length}")
 
         # Modifying the enclosing scope variable using nonlocal
-        nonlocal number
+        #nonlocal number
         number = 30
         print(f"Modified nonlocal 'number' in inner_function: {number}")
 
