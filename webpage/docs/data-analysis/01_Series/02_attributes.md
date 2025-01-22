@@ -1,4 +1,4 @@
-# Series Attributes
+# Attributes
 
 Pandas is a powerful library for data manipulation and analysis in Python. One of its core data structures is the Series, which is essentially a one-dimensional labeled array capable of holding any data type. Understanding the attributes associated with Series objects is crucial for effectively working with data in Pandas. In this tutorial, we'll delve into the most common attributes of Pandas Series, exploring their functionalities and how to utilize them in your data analysis workflows.
 

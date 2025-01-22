@@ -1,8 +1,8 @@
-### Accessing Elements by Position in Pandas
+# Accessing Elements by Position in Pandas
 
 In this tutorial, we will explore various methods to access elements by their position in a pandas Series. We'll cover basic element access, accessing multiple elements, slicing, and accessing the last element of a Series. We'll use a sample dataset representing the richest individuals to demonstrate these concepts.
 
-#### 1. Importing Pandas and Loading Data
+## 1. Importing Pandas and Loading Data
 
 Let's start by importing pandas and loading our dataset. We'll create a pandas Series from a CSV file containing information about the richest individuals. For this tutorial, let's call our Series `richest`.
 
@@ -13,7 +13,7 @@ import pandas as pd
 richest = pd.read_csv('richest_individuals.csv')['Name']
 ```
 
-#### 2. Accessing Single Elements
+## 2. Accessing Single Elements
 
 To access a single element by its position, we use the index notation. For example, to retrieve the first element (position 0) in the Series:
 
@@ -31,7 +31,7 @@ larry_page = richest[5]
 print(larry_page)  # Output: Larry Page
 ```
 
-#### 3. Handling Out-of-Range Positions
+## 3. Handling Out-of-Range Positions
 
 When accessing elements by position, ensure that the specified index exists within the range of the Series. Otherwise, it will raise an error. For example, accessing an index that doesn't exist:
 
@@ -40,7 +40,7 @@ When accessing elements by position, ensure that the specified index exists with
 out_of_range = richest[1009]  # This will raise an error
 ```
 
-#### 4. Accessing Multiple Elements
+## 4. Accessing Multiple Elements
 
 To access multiple elements by their positions, we can pass a list of indices. For instance, to retrieve elements at positions 1, 2, and 15:
 
@@ -51,7 +51,7 @@ print(multiple_elements)
 # Output: Jeff Bezos, Bernard family, Jim Walton
 ```
 
-#### 5. Slicing
+## 5. Slicing
 
 Slicing allows us to retrieve a subset of elements within a specified range. We can use slicing notation, similar to Python lists.
 
@@ -79,7 +79,7 @@ subset_until_10 = richest[:10]
 print(subset_until_10)
 ```
 
-#### 6. Accessing the Last Element
+## 6. Accessing the Last Element
 
 Accessing the last element of a Series requires special handling. While `-1` typically represents the last element in Python lists, it doesn't work the same way with pandas Series.
 
@@ -89,7 +89,7 @@ last_element = richest[-1:]
 print(last_element)
 ```
 
-#### 7. Viewing Series Index
+## 7. Viewing Series Index
 
 To get information about the index of a Series, you can access the `index` attribute.
 
