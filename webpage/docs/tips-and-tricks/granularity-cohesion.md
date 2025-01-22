@@ -1,8 +1,8 @@
-### Granularity and Cohesion in Programming
+# Granularity and Cohesion in Programming
 
 **Granularity** and **cohesion** are key concepts in software design that influence how you structure your code. They impact readability, maintainability, and the overall design quality of your software.
 
-#### 1. Granularity
+## 1. Granularity
 Granularity refers to the level of detail or size of the components in your software. It can apply to functions, modules, classes, or even entire services. Granularity is often discussed in terms of "fine-grained" or "coarse-grained" components:
 
 - **Fine-grained** components are small, with very specific responsibilities.
@@ -40,7 +40,7 @@ Consider a library management system.
 - **Fine-grained:** Easier to test and reuse but may lead to many small functions, making the code harder to follow.
 - **Coarse-grained:** Easier to manage as a whole but can become complex and harder to test.
 
-#### 2. Cohesion
+## 2. Cohesion
 Cohesion refers to how closely related the responsibilities of a single module or class are. High cohesion means that the components of a module or class are highly related and focused on a single task or purpose.
 
 - **High cohesion:** All elements within a module or class work together to achieve a common goal. This usually makes the code easier to maintain and understand.
@@ -87,7 +87,7 @@ Let’s continue with the library management system.
 - **High cohesion:** Easier to understand, test, and maintain. Changes to one aspect of the system (e.g., catalog management) don’t affect unrelated parts.
 - **Low cohesion:** Can lead to "god classes" that do too much, making the code harder to maintain and more prone to errors when changes are needed.
 
-### Conclusion
+# Conclusion
 - **Granularity** helps determine how you break down your system into components. Fine-grained components are more specific and easier to reuse but can make your system more complex. Coarse-grained components are broader and simpler to manage but can become monolithic.
 - **Cohesion** ensures that your components are well-defined with a clear purpose. High cohesion is desirable because it makes your code more maintainable and understandable.
 
