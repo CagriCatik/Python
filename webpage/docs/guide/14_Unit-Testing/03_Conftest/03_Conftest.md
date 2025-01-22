@@ -88,11 +88,10 @@ Create a test file named `test_sample_module.py` to write tests for the sample m
 
     ```python
     def test_api_returns_data():
-        actual = sm.get_api
+    actual = sm.get_api_data()
+    expected = "modified data"
+    assert actual == expected, f"Expected {expected} but got {actual}"
 
-_data()
-        expected = "modified data"
-        assert actual == expected, f"Expected {expected} but got {actual}"
     ```
 
 3. **Testing Reverse Text Function**:
