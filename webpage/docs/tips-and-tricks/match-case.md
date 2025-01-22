@@ -1,7 +1,5 @@
 # `match-case` Statement
 
-## **Introduction**
-
 The `match-case` statement, introduced in Python 3.10, is a powerful and flexible control structure that allows for pattern matching, enabling more expressive and concise code. It is somewhat analogous to the `switch-case` statements found in other programming languages like C, C++, and Java but extends far beyond simple value matching. Python's `match-case` provides capabilities such as destructuring, type checks, and combining patterns with conditional logic, making it a versatile tool for handling complex data structures and decision-making processes.
 
 ## **Basic Syntax**

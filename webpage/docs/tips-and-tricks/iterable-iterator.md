@@ -1,7 +1,5 @@
 # Iterable vs Iterator in Python
 
-## Introduction
-
 In Python, iterables and iterators are foundational concepts that are closely tied to the language's ability to handle sequences and streams of data efficiently. These constructs are not only central to the mechanics of loops and comprehensions but also play a critical role in the design of various Python standard library modules, such as `itertools` and `collections`. Despite their importance, the distinction between iterables and iterators often causes confusion. This tutorial provides an in-depth exploration of these concepts, shedding light on their differences, how they work under the hood, and their practical applications in Python programming.
 
 ## What Is an Iterable?

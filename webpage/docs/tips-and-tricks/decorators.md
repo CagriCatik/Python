@@ -1,4 +1,3 @@
-
 # 5 Useful Python Decorators
 
 In this tutorial, we'll explore various decorators, both custom-made and built-in, that can enhance the functionality and efficiency of your Python code. Each decorator serves a specific purpose, ranging from retrying failed operations to deprecating functions and handling program termination gracefully.

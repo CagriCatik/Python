@@ -1,4 +1,4 @@
-# 5 Useful Dunder Methods in Python
+# 5 Useful Dunder Methods
 
 Dunder methods, short for "double underscore" methods, are special methods in Python classes that provide functionality for various operations. In this tutorial, we'll explore five useful Dunder methods with code snippets based on the transcript of a video tutorial.
 
