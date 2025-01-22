@@ -110,6 +110,9 @@
 </details>
 
 
+## Sources
 
-
-https://pyimagesearch.com/2024/09/30/introduction-to-github-actions-for-python-projects/
+- [1. Introduction to GitHub Actions for Python Projects](https://pyimagesearch.com/2024/09/30/introduction-to-github-actions-for-python-projects/)
+- [2. Setting Up GitHub Actions CI for FastAPI: Intro to Taskfile and Pre-Jobs](https://pyimagesearch.com/2024/10/07/setting-up-github-actions-ci-for-fastapi-intro-to-taskfile-and-pre-jobs/)
+- [3. Enhancing GitHub Actions CI for FastAPI: Build, Test, and Publish](https://pyimagesearch.com/2024/11/04/enhancing-github-actions-ci-for-fastapi-build-test-and-publish/)
+- [4. FastAPI with GitHub Actions and GHCR: Continuous Delivery Made Simple](https://pyimagesearch.com/2024/11/11/fastapi-with-github-actions-and-ghcr-continuous-delivery-made-simple/)
