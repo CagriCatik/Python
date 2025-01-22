@@ -1,4 +1,4 @@
-# Comprehensive Tutorial on `str()` and `repr()` in Python
+# `str()` and `repr()`
 
 In Python, `str()` and `repr()` are two functions that convert an object into a string. However, they serve distinct purposes and are used in different contexts. Understanding the differences between them is crucial for writing clear and effective Python code. This tutorial provides an in-depth examination of `str()` and `repr()`, illustrating their uses and differences with code snippets and examples.
 

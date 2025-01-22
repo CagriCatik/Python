@@ -1,4 +1,4 @@
-# Inheritance in Python
+# Inheritance
 
 Object-Oriented Programming is a programming paradigm that uses objects and classes to organize and structure code. It allows for modularity, reusability, and abstraction. Python, as an object-oriented language, supports OOP features, including inheritance, polymorphism, encapsulation, and abstraction. This tutorial will focus on the principles of OOP, specifically inheritance, in Python.
 

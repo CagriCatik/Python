@@ -1,4 +1,4 @@
-# Understanding the `__init__` Method in Python
+# `__init__` Method
 
 In Python, the `__init__` method is a crucial part of object initialization within a class. Often referred to as a constructor, this special method gets called automatically when an object is created, enabling the setup of initial values and other necessary actions. This tutorial aims to provide a comprehensive understanding of the `__init__` method and its significance in Python programming.
 

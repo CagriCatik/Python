@@ -1,4 +1,4 @@
-#  `@staticmethod` in Python
+#  `@staticmethod` 
 
 In Python, methods within a class can be defined in various ways depending on their intended use. Among these, the `@staticmethod` decorator is used to define methods that do not operate on an instance of the class or the class itself. This tutorial will cover the functionality, use cases, and implementation of `@staticmethod`, along with a critical examination of its benefits and limitations.
 

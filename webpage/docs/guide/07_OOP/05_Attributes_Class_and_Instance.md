@@ -1,4 +1,4 @@
-# Understanding Class and Instance Attributes in Python
+# Class and Instance Attributes
 
 In object-oriented programming, classes and instances play a pivotal role. Python, being an object-oriented language, leverages classes to define objects and their behavior. An important aspect of this paradigm is understanding the distinction between class attributes and instance attributes. This tutorial will provide a comprehensive examination of these concepts, their differences, and how to utilize them effectively in Python.
 

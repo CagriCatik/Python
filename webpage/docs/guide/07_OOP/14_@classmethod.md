@@ -1,6 +1,4 @@
-# @classmethod
-
-## Classes and Instances
+# Classes and Instances
 
 A class in Python serves as a blueprint for creating objects (instances). Each object is an instance of a class and can have attributes (data) and methods (functions) that define its behavior.
 

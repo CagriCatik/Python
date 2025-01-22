@@ -1,4 +1,4 @@
-## Understanding the `self` Parameter in Python Classes
+# `self` Parameter
 
 In Python, the `self` parameter is an integral part of defining instance methods in a class. It allows each instance of the class to keep its own data and functionality separate from other instances. This tutorial aims to provide a comprehensive understanding of the `self` parameter and its importance in Python object-oriented programming.
 

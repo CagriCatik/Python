@@ -1,4 +1,4 @@
-# Understanding Functions and Methods in Python: A Detailed Tutorial
+# Functions and Methods
 
 In Python, functions and methods are fundamental constructs that enable code modularity, reusability, and organization. While they might seem similar at first glance, they have distinct characteristics and use cases. This tutorial provides a comprehensive explanation of functions and methods, highlighting their differences through examples.
 

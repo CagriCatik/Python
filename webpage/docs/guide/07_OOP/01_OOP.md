@@ -1,4 +1,4 @@
-# Object Oriented Programming in Python
+# Object Oriented Programming
 
 OOP is a programming paradigm that changes our approach to coding by organizing data and functionality into reusable structures called classes.
 

@@ -1,6 +1,4 @@
-# Understanding Name Mangling
-
-## Introduction to Name Mangling
+# Name Mangling
 
 Name mangling is a mechanism in Python to ensure that the names of class attributes are unique and not easily accessible outside their defining class. This feature is particularly useful for encapsulating data and preventing name clashes in inheritance hierarchies.
 

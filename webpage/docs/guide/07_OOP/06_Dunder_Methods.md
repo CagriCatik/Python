@@ -1,4 +1,4 @@
-# Utilizing Dunder Methods in Classes
+# Dunder Methods
 
 In this tutorial, we will explore the concept of dunder methods, also known as magic methods, and their application in Python classes. Dunder methods, short for "double underscore" methods, are special methods with double leading and trailing underscores (e.g., `__init__`). These methods are integral to defining the behavior of objects in Python. While we've already encountered the `__init__` method for initializing instances, we will delve deeper into other dunder methods that enhance the functionality and interactivity of our classes.
 

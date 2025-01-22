@@ -1,4 +1,4 @@
-# Understanding `super()` 
+# `super()` 
 
 In Python's Object-Oriented Programming (OOP) paradigm, the `super()` function is a crucial component for managing class inheritance hierarchies. This tutorial aims to provide a comprehensive and detailed explanation of `super()`, its use cases, and potential pitfalls.
 
