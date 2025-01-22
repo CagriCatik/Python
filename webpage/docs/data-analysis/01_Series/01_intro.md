@@ -73,10 +73,10 @@ print(series_missing)
 ## 6. Assignment
 
 - 1. Creating Series:
-  - Create a Series named series_numbers from the list [10, 20, 30, 40, 50].
-  - Create a Series named series_info from the dictionary {'Name': 'Mario', 'Age': 30, 'Occupation': 'Plumber'}.
+  - Create a Series named series_numbers from the list ```[10, 20, 30, 40, 50]```.
+  - Create a Series named series_info from the dictionary ```{'Name': 'Mario', 'Age': 30, 'Occupation': 'Plumber'}```.
 - 2. Custom Indexing and Data Types:
-  - Create a Series named series_custom_index using the list [100, 200, 300] with custom index labels as ['A', 'B', 'C'].
-  - Create a Series named series_custom_dtype using the list [11, 22, 33] with data type explicitly set as float.
+  - Create a Series named series_custom_index using the list ```[100, 200, 300]``` with custom index labels as ```['A', 'B', 'C']```.
+  - Create a Series named series_custom_dtype using the list ```[11, 22, 33]``` with data type explicitly set as float.
 - 3. Handling Missing Values:
-  - Create a Series named series_missing from the dictionary {'Name': 'Peach', 'Age': 28} with custom index labels as ['Name', 'Age', 'Occupation']. Ensure to handle missing values appropriately.
+  - Create a Series named series_missing from the dictionary ```{'Name': 'Peach', 'Age': 28}``` with custom index labels as ```['Name', 'Age', 'Occupation']```. Ensure to handle missing values appropriately.
