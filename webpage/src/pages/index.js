@@ -26,7 +26,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/guide/getting-started">
+            to="/docs/python-guide/getting-started">
             Unleashing Your Inner Python Ninja 🐍
           </Link>
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Unleashing Your Inner Python Ninja 🐍">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
