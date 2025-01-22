@@ -1,7 +1,6 @@
-## @classmethod
+# @classmethod
 
-
-### Classes and Instances
+## Classes and Instances
 
 A class in Python serves as a blueprint for creating objects (instances). Each object is an instance of a class and can have attributes (data) and methods (functions) that define its behavior.
 
@@ -18,11 +17,11 @@ instance = MyClass("example")
 print(instance.method())  # Output: Attribute value is example
 ```
 
-### Class Methods
+## Class Methods
 
 Class methods are methods that are bound to the class and not the instance of the class. They can be called on the class itself, rather than on instances of the class. Class methods are defined using the `@classmethod` decorator and take `cls` as the first parameter, which refers to the class itself.
 
-#### Defining and Using Class Methods
+### Defining and Using Class Methods
 
 To define a class method, use the `@classmethod` decorator above the method definition. The first parameter of a class method is `cls`, which represents the class that the method is called on.
 
@@ -41,7 +40,7 @@ class MyClass:
 print(MyClass.class_method())  # Output: Class attribute value is class value
 ```
 
-### Use Cases for Class Methods
+## Use Cases for Class Methods
 
 Class methods are useful in several scenarios:
 
@@ -49,7 +48,7 @@ Class methods are useful in several scenarios:
 2. **Accessing/Modifying Class State**: Accessing or modifying class-level attributes that are shared across all instances.
 3. **Polymorphism**: Implementing polymorphic behavior where the method’s behavior can be customized by subclasses.
 
-#### Factory Methods Example
+### Factory Methods Example
 
 Factory methods provide an alternative way to instantiate a class, which can be useful for creating objects with specific configurations.
 
@@ -70,7 +69,7 @@ date_instance = Date.from_string("2024-05-27")
 print(date_instance.year, date_instance.month, date_instance.day)  # Output: 2024 5 27
 ```
 
-### Differences Between @classmethod, @staticmethod, and Instance Methods
+## Differences Between @classmethod, @staticmethod, and Instance Methods
 
 1. **Instance Methods**:
     - Bound to the instance of the class.
@@ -106,6 +105,6 @@ print(date_instance.year, date_instance.month, date_instance.day)  # Output: 202
                 print("Static method called")
         ```
 
-### Conclusion
+## Conclusion
 
 Understanding the `@classmethod` decorator in Python is crucial for effective use of object-oriented programming techniques. Class methods provide a way to operate on the class itself rather than on instances, enabling functionalities like factory methods and class-level attribute management. This tutorial covered the basics of defining and using class methods, highlighting their use cases and differences from other types of methods in Python.

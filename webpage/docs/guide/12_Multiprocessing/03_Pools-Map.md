@@ -2,11 +2,6 @@
 
 In this tutorial, we will explore the use of process pools in Python to efficiently distribute computational tasks across multiple CPU cores. By utilizing the `multiprocessing` module, we can run multiple computations in parallel, significantly reducing the execution time for CPU-bound tasks. This guide will walk through creating a process pool, mapping tasks to it, and understanding the impact of core availability on task execution.
 
-## Prerequisites
-
-Ensure you have Python installed on your machine. This tutorial assumes familiarity with basic Python programming and concepts such as functions and loops.
-
-## Introduction to Process Pools
 
 A process pool allows us to manage and execute multiple processes concurrently. The `multiprocessing` module in Python provides a `Pool` class to facilitate this. Using a pool, we can distribute tasks across available CPU cores and collect results once all tasks are completed.
 

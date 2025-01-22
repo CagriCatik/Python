@@ -1,7 +1,5 @@
 # Multiprocessing
 
-## Introduction
-
 This tutorial addresses the implementation of multiprocessing in Python to enhance program performance. It will also compare multiprocessing with threading to highlight the differences and appropriate use cases. The tutorial includes creating helper scripts for timing functions, generating timestamps, and simulating time-consuming operations. These scripts will be integrated into a main program utilizing Python's `multiprocessing` module.
 
 ## Helper Script Creation
