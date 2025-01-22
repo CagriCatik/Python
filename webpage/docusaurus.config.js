@@ -85,6 +85,18 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'designPatternsSidebar',
+            position: 'left',
+            label: '🐍 Design Patterns',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'guiSidebar',
+            position: 'left',
+            label: '🐍 GUI',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'tipsAndTricksSidebar',
             position: 'left',
             label: '🐍 Tips & Tricks',
