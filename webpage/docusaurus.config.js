@@ -73,19 +73,19 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'guideSidebar',
             position: 'left',
             label: '🐍 Developer Guide',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'dataAnalysisSidebar',
             position: 'left',
             label: '🐍 Data Analysis',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'tipsAndTricksSidebar',
             position: 'left',
             label: '🐍 Tips & Tricks',
           },
