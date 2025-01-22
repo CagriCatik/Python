@@ -1,4 +1,4 @@
-# Comprehensive Tutorial on Structural Design Patterns
+# Structural Design Patterns
 
 Structural design patterns are a category of design patterns in software engineering that focus on object composition or structure. They address the arrangement of classes and objects to form larger structures, promoting flexibility and efficiency in software design. In this tutorial, we will delve into three fundamental structural design patterns: Adapter, Decorator, and Proxy.
 

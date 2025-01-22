@@ -1,4 +1,4 @@
-# Comprehensive Tutorial on Behavioral Design Patterns
+# Behavioral Design Patterns
 
 Behavioral design patterns focus on object collaboration and responsibilities, describing how objects interact and communicate with each other to fulfill certain tasks. They promote loose coupling and flexibility in the system's design. In this tutorial, we will explore three fundamental behavioral design patterns: Observer, Strategy, and Command.
 
