@@ -71,17 +71,9 @@
 
 </details>
 
-<details>
-<summary>7. GUI Testing and Debugging</summary>
-
-- [ ] Strategies for Debugging GUI Applications 🐞
-- [ ] Writing Unit Tests for GUI Code ✅
-- [ ] Automated GUI Testing with Tools like PyAutoGUI 🔄
-
-</details>
 
 <details>
-<summary>8. GUI Application Packaging and Deployment</summary>
+<summary>7. GUI Application Packaging and Deployment</summary>
 
 - [ ] Packaging Applications with PyInstaller 📦
 - [ ] Creating Cross-Platform Executables 🌍
@@ -91,7 +83,7 @@
 </details>
 
 <details>
-<summary>9. Integrating Modern Features</summary>
+<summary>8. Integrating Modern Features</summary>
 
 - [ ] Using REST APIs in Your GUI Applications 🌐
 - [ ] Real-Time Data Visualization with PyQtGraph 📊
@@ -101,7 +93,7 @@
 </details>
 
 <details>
-<summary>10. Real-World Projects</summary>
+<summary>9. Real-World Projects</summary>
 
 - [ ] Building a Simple To-Do List Application 📝
 - [ ] Creating a File Explorer 📂
@@ -112,7 +104,7 @@
 </details>
 
 <details>
-<summary>11. Advanced GUI Development</summary>
+<summary>10. Advanced GUI Development</summary>
 
 - [ ] Using MVC (Model-View-Controller) Design in GUI 🗂️
 - [ ] Creating Plugins for Your Application 🛠️
@@ -122,7 +114,7 @@
 </details>
 
 <details>
-<summary>12. Tips, Tricks, and Best Practices</summary>
+<summary>11. Tips, Tricks, and Best Practices</summary>
 
 - [ ] Avoiding Common Pitfalls in GUI Development 🚩
 - [ ] Writing Maintainable GUI Code ✍️
