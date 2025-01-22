@@ -1,7 +1,5 @@
 # 10 Common Python Errors
 
-## Introduction
-
 Errors are a fundamental part of programming. They provide critical feedback on what went wrong in your code, guiding you toward better practices and understanding. This tutorial explores 10 common Python errors, offering improved examples and explanations to help you understand the cause of these errors and how to prevent or resolve them.
 
 ## 1. AttributeError

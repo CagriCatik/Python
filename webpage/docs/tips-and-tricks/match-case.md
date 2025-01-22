@@ -275,6 +275,4 @@ Patterns can be combined in various ways to create complex matching conditions:
 
 ## **Conclusion**
 
-The `match-case` statement
-
- in Python 3.10 and later versions is a powerful tool that provides flexibility and expressiveness far beyond traditional conditional statements. By understanding and effectively using the different types of patterns, guards, and combining patterns, you can write more readable, maintainable, and concise Python code. Whether you are working with simple values or complex data structures, `match-case` allows you to handle multiple scenarios with elegance and efficiency.
+The `match-case` statement in Python 3.10 and later versions is a powerful tool that provides flexibility and expressiveness far beyond traditional conditional statements. By understanding and effectively using the different types of patterns, guards, and combining patterns, you can write more readable, maintainable, and concise Python code. Whether you are working with simple values or complex data structures, `match-case` allows you to handle multiple scenarios with elegance and efficiency.
