@@ -103,7 +103,7 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'cicdAPISidebar',
+            sidebarId: 'cicdSidebar',
             position: 'left',
             label: '🐍 CI/CD',
           },
