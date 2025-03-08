@@ -103,6 +103,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'solidSidebar',
+            position: 'left',
+            label: '🐍 SOLID',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'cicdSidebar',
             position: 'left',
             label: '🐍 CI/CD',
